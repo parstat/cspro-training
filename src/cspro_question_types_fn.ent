@@ -1,0 +1,27 @@
+﻿[CSPro Application]
+Version=CSPro 7.4
+Label=CSPRO_QUESTION_TYPES_FN
+Name=CSPRO_QUESTION_TYPES_FN
+AppType=DataEntry
+OperatorID=No
+CAPI=Yes
+CAPIFont1=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont2=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont1Color=0
+CAPIFont2Color=16711680
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ComboBoxShowOnlyDiscreteValues=Yes
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
+[AppCode]
+File=.\cspro_question_types_fn.ent.apc
+[Message]
+File=.\cspro_question_types_fn.ent.mgf
+[Help]
+File=.\cspro_question_types_fn.ent.qsf
+[Forms]
+File=.\cspro_question_types_fn.fmf
+[Dictionary Types]
+Dict-Type=.\qt_dict.dcf,Input,.\cspro_question_types_fn.fmf

@@ -1,0 +1,104 @@
+﻿[Dictionary]
+Version=CSPro 7.4
+Label=qt_dict
+Name=QT_DICT_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=9CF4317EA98961C27B76805BC9ED0BB7CAD1369998154562212F05ED2733B285
+
+[Level]
+Label=qt_dict Level
+Name=QT_DICT_LEVEL
+
+[IdItems]
+
+[Item]
+Label=qt_dict Identification
+Name=PSU
+Start=2
+Len=3
+ZeroFill=Yes
+
+[Item]
+Label=Enumeration Area
+Name=EA
+Start=5
+Len=5
+ZeroFill=Yes
+
+[Item]
+Label=Household 
+Name=HH
+Start=10
+Len=2
+ZeroFill=Yes
+
+[Record]
+Label=Chapter1
+Name=CHAP_1
+RecordTypeValue='1'
+RecordLen=301
+
+[Item]
+Label=Q1. Name
+Name=Q1_NAME
+Start=12
+Len=30
+DataType=Alpha
+
+[Item]
+Label=Q2. Email
+Name=Q2_EMAIL
+Start=42
+Len=50
+DataType=Alpha
+
+[Item]
+Label=Q3. Age
+Name=Q3_AGE
+Start=92
+Len=3
+
+[ValueSet]
+Label=Q3. Age
+Name=Q3_AGE_VS1
+Value=1:120;Valid values 
+Value=999;Do Not Know
+Name=MISSING,Special
+
+[Item]
+Label=Q4. Height
+Name=Q4_HEIGHT
+Start=95
+Len=6
+Decimal=2
+DecimalChar=Yes
+ZeroFill=Yes
+
+[ValueSet]
+Label=Q4. Height
+Name=Q4_HEIGHT_VS1
+Value=25.00:250.00;Valid values
+
+[Item]
+Label=Q5. Gender
+Name=Q5_GENDER
+Start=101
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=Q5. Gender
+Name=Q5_GENDER_VS1
+Value='F';Female
+Value='M';Male
+
+[Item]
+Label=Q6. Your opinion on NBS website
+Name=Q6_OPINION_NBS_WEBSITE
+Start=102
+Len=200
+DataType=Alpha

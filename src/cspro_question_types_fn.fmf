@@ -1,0 +1,33 @@
+﻿[FormFile]
+Version=CSPro 7.4
+Name=QT_DICT_FF
+Label=cspro_question_types_fn
+DefaultTextFont=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+FieldEntryFont=0018 0000 0000 0000 0600 0000 0000 0000 0000 0000 0000 0000 0000 Courier New
+Type=SystemControlled
+  
+[Dictionaries]
+File=.\qt_dict.dcf
+  
+[Form]
+Name=FORM000
+Label=qt_dict Level
+Level=1
+Size=0,0
+  
+  
+[EndForm]
+  
+[Level]
+Name=QT_DICT_LEVEL
+Label=qt_dict Level
+  
+[Group]
+Required=Yes
+Name=QT_DICT_LEVEL_FORM
+Label=qt_dict Level
+Form=1
+LogicControl=No
+Max=1
+[EndGroup]
+  
