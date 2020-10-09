@@ -30,7 +30,7 @@ Len=5
 ZeroFill=Yes
 
 [Item]
-Label=Household 
+Label=Household
 Name=HH
 Start=10
 Len=2
@@ -65,12 +65,12 @@ Len=3
 [ValueSet]
 Label=Q3. Age
 Name=Q3_AGE_VS1
-Value=1:120;Valid values 
+Value=1:120;Valid values
 Value=999;Do Not Know
 Name=MISSING,Special
 
 [Item]
-Label=Q4. Height
+Label=Q4. Height (in cm)
 Name=Q4_HEIGHT
 Start=95
 Len=6
@@ -79,7 +79,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [ValueSet]
-Label=Q4. Height
+Label=Q4. Height (in cm)
 Name=Q4_HEIGHT_VS1
 Value=25.00:250.00;Valid values
 
