@@ -89,3 +89,274 @@ Name=Q5_OPINION_NBS_WEBSITE
 Start=101
 Len=200
 DataType=Alpha
+
+[Record]
+Label=Close-Ended questions
+Name=CLOSE_ENDED_QUESTIONS
+RecordTypeValue='2'
+RecordLen=20
+
+[Item]
+Label=Q6 Gender
+Name=Q6_GENDER
+Start=12
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=Q6 Gender
+Name=Q6_GENDER_VS1
+Value='F';Female
+Value='M';Male
+
+[ValueSet]
+Label=Value Set 1
+Name=Q6_GENDER_VS2
+Value=1;Female
+Value=2;Male
+
+[Item]
+Label=Q7 Country
+Name=Q7_COUNTRY
+Start=13
+Len=1
+
+[ValueSet]
+Label=Q7 Country
+Name=Q7_COUNTRY_VS1
+Value=1;Albania
+Value=2;Denmark
+Value=3;Italy
+Value=4;Moldova
+Value=5;Poland
+
+[Item]
+Label=Q8 Languages Spoken (choose all that apply)
+Name=Q8_LANGUAGES_SPOKEN
+Start=14
+Len=5
+DataType=Alpha
+
+[ValueSet]
+Label=Q8 Languages Spoken (choose all that apply)
+Name=Q8_LANGUAGES_SPOKEN_VS1
+Value='A    ';Romanian
+Value='B    ';Russian
+Value='C    ';English
+Value='D    ';Italian
+Value='O    ';Other
+
+[Item]
+Label=Q9 Rate NBS website
+Name=Q9_RATE_NBS_WEBSITE
+Start=19
+Len=1
+
+[ValueSet]
+Label=Q9 Rate NBS website
+Name=Q9_RATE_NBS_WEBSITE_VS1
+Value=1:5
+
+[Item]
+Label=Q10 Have you ever made a request for data to NBS?
+Name=Q10_HAVE_YOU_EVER_MADE_A_REQUEST_FOR_DATA_TO_NBS
+Start=20
+Len=1
+
+[ValueSet]
+Label=Q10 Have you ever made a request for data to NBS?
+Name=Q10_HAVE_YOU_EVER_MADE_A_REQUEST_FOR_DATA_TO_NBS_VS1
+Value=0;No
+Value=1;Yes
+
+[ValueSet]
+Label=Value Set 1
+Name=Q10_HAVE_YOU_EVER_MADE_A_REQUEST_FOR_DATA_TO_NBS_VS2
+Value=0;False
+Value=1;True
+
+[Record]
+Label=Open Response Options
+Name=OPEN_RESPONSE_OPTIONS
+RecordTypeValue='3'
+RecordLen=77
+
+[Item]
+Label=Q12 Natinality
+Name=Q12_NATIONALITY
+Start=12
+Len=1
+
+[ValueSet]
+Label=Q12 Natinality
+Name=Q12_NATIONALITY_VS1
+Value=1;Moldavian
+Value=2;Romanian
+Value=3;Russian
+Value=9;Other
+Value=4;Do not know
+Name=MISSING,Special
+Value=5;Refuse to answer
+Name=REFUSED,Special
+
+[Item]
+Label=Q12 Other
+Name=Q12_OTHER
+Start=13
+Len=30
+DataType=Alpha
+
+[Item]
+Label=Q13 Languages Spoken (choose all that apply)
+Name=Q13_LANGUAGES_SPOKEN
+Start=43
+Len=5
+DataType=Alpha
+
+[ValueSet]
+Label=Q13 Languages Spoken (choose all that apply)
+Name=Q13_LANGUAGES_SPOKEN_VS1
+Value='A    ';Romanian
+Value='B    ';Russian
+Value='C    ';English
+Value='D    ';Italian
+Value='O    ';Other
+
+[Item]
+Label=Q13 Specify
+Name=Q13_SPECIFY
+Start=48
+Len=30
+DataType=Alpha
+
+[Record]
+Label=Matrix
+Name=MATRIX
+RecordTypeValue='4'
+RecordLen=15
+
+[Item]
+Label=NBS website is user friendly
+Name=NBS_WEBSITE_IS_USER_FRIENDLY
+Start=12
+Len=1
+
+[ValueSet]
+Label=NBS website is user friendly
+Name=NBS_WEBSITE_IS_USER_FRIENDLY_VS1
+Link=119366544
+Value=1;Strongly Disagree
+Value=2;Disagree
+Value=3;Neutral
+Value=4;Agree
+Value=5;Strongly Agree
+
+[Item]
+Label=Statistical Database is very useful
+Name=STATISTICAL_DATABASE_IS_VERY_USEFUL
+Start=13
+Len=1
+
+[ValueSet]
+Label=Statistical Database is very useful
+Name=STATISTICAL_DATABASE_IS_VERY_USEFUL_VS2
+Link=119366544
+
+[Item]
+Label=NBS is a good source of official data`
+Name=NBS_IS_A_GOOD_SOURCE_OF_OFFICIAL_DATA
+Start=14
+Len=1
+
+[ValueSet]
+Label=NBS is a good source of official data`
+Name=NBS_IS_A_GOOD_SOURCE_OF_OFFICIAL_DATA_VS1
+Link=119366544
+
+[Item]
+Label=Electronic data are better than paper data
+Name=ELECTRONIC_DATA_ARE_BETTER_THAN_PAPER_DATA
+Start=15
+Len=1
+
+[ValueSet]
+Label=Electronic data are better than paper data
+Name=ELECTRONIC_DATA_ARE_BETTER_THAN_PAPER_DATA_VS1
+Link=119366544
+
+[Record]
+Label=Famliy Roster
+Name=FAMLIY_ROSTER
+RecordTypeValue='5'
+MaxRecords=20
+RecordLen=86
+
+[Item]
+Label=Name
+Name=NAME
+Start=12
+Len=30
+DataType=Alpha
+
+[Item]
+Label=Gender
+Name=GENDER
+Start=42
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=Gender
+Name=GENDER_VS1
+Value='F';Female
+Value='M';Male
+
+[Item]
+Label=Age
+Name=AGE
+Start=43
+Len=3
+
+[ValueSet]
+Label=Age
+Name=AGE_VS1
+Value=0:120
+
+[Item]
+Label=Email
+Name=EMAIL
+Start=46
+Len=40
+DataType=Alpha
+
+[Item]
+Label=Rlationship
+Name=RLATIONSHIP
+Start=86
+Len=1
+
+[ValueSet]
+Label=Rlationship
+Name=RLATIONSHIP_VS1
+Value=1;Head of Household
+Value=2;Spouse / Partner
+Value=3;Son / Daughter
+Value=4;Brother / Sister
+Value=5;Father / Mother
+Value=6;Grandfather / Grandmother
+Value=7;Grandson / Granddaughter
+Value=8;Other Relative
+Value=9;Non-Relative
+
+[ValueSet]
+Label=`
+Name=RLATIONSHIP_VS2_MALE
+Value=1;Head of Household
+Value=2;Spouse / Partner
+Value=3;Son
+Value=4;Brother
+Value=5;Father
+Value=6;Grandfather
+Value=7;Grandson
+Value=8;Other Relative
+Value=9;Non-Relative
