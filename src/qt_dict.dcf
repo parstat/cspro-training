@@ -37,10 +37,10 @@ Len=2
 ZeroFill=Yes
 
 [Record]
-Label=Chapter1
-Name=CHAP_1
+Label=Open-Ended questions
+Name=OPEN_ENDED
 RecordTypeValue='1'
-RecordLen=301
+RecordLen=300
 
 [Item]
 Label=Q1. Name
@@ -84,21 +84,8 @@ Name=Q4_HEIGHT_VS1
 Value=25.00:250.00;Valid values
 
 [Item]
-Label=Q5. Gender
-Name=Q5_GENDER
+Label=Q5. Your opinion on NBS website
+Name=Q5_OPINION_NBS_WEBSITE
 Start=101
-Len=1
-DataType=Alpha
-
-[ValueSet]
-Label=Q5. Gender
-Name=Q5_GENDER_VS1
-Value='F';Female
-Value='M';Male
-
-[Item]
-Label=Q6. Your opinion on NBS website
-Name=Q6_OPINION_NBS_WEBSITE
-Start=102
 Len=200
 DataType=Alpha
