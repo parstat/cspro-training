@@ -289,7 +289,7 @@ Label=Famliy Roster
 Name=FAMLIY_ROSTER
 RecordTypeValue='5'
 MaxRecords=20
-RecordLen=86
+RecordLen=97
 
 [Item]
 Label=Name
@@ -323,16 +323,23 @@ Name=AGE_VS1
 Value=0:120
 
 [Item]
+Label=Phone number
+Name=PHONE_NUMBER
+Start=46
+Len=11
+DataType=Alpha
+
+[Item]
 Label=Email
 Name=EMAIL
-Start=46
+Start=57
 Len=40
 DataType=Alpha
 
 [Item]
 Label=Rlationship
 Name=RLATIONSHIP
-Start=86
+Start=97
 Len=1
 
 [ValueSet]
@@ -373,3 +380,111 @@ Value=6;Grandmother
 Value=7;Granddaughter
 Value=8;Other Relative
 Value=9;Non-Relative
+
+[Record]
+Label=Aditional Data Types
+Name=ADITIONAL_DATA_TYPES
+RecordTypeValue='6'
+RecordLen=90
+
+[Item]
+Label=Birthday
+Name=BIRTHDAY
+Start=12
+Len=8
+
+[Item]
+Label=Birthday Year
+Name=BIRTHDAY_YEAR
+Start=12
+Len=4
+ItemType=SubItem
+
+[ValueSet]
+Label=Birthday Year
+Name=BIRTHDAY_YEAR_VS1
+Value=1900:2020
+
+[Item]
+Label=Birthday Month
+Name=BIRTHDAY_MONTH
+Start=16
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[ValueSet]
+Label=Birthday Month
+Name=BIRTHDAY_MONTH_VS1
+Value=1:12
+
+[Item]
+Label=Birthday Day
+Name=BIRTHDAY_DAY
+Start=18
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[ValueSet]
+Label=Birthday Day
+Name=BIRTHDAY_DAY_VS1
+Value=1:31
+
+[Item]
+Label=Housuhold map point
+Name=HOUSUHOLD_MAP_POINT
+Start=20
+Len=20
+DataType=Alpha
+
+[Item]
+Label=Latitude
+Name=LATITUDE
+Start=20
+Len=10
+ItemType=SubItem
+Decimal=5
+DecimalChar=Yes
+
+[ValueSet]
+Label=Latitude
+Name=LATITUDE_VS1
+Value=-90.00000:90.00000
+
+[Item]
+Label=Longitude
+Name=LONGITUDE
+Start=30
+Len=10
+ItemType=SubItem
+Decimal=5
+DecimalChar=Yes
+
+[ValueSet]
+Label=Longitude
+Name=LONGITUDE_VS1
+Value=-180.00000:180.00000
+
+[Item]
+Label=Front Door Picture
+Name=FRONT_DOOR_PICTURE
+Start=40
+Len=50
+DataType=Alpha
+
+[Item]
+Label=Select the green bird
+Name=SELECT_THE_GREEN_BIRD
+Start=90
+Len=1
+
+[ValueSet]
+Label=Select the green bird
+Name=SELECT_THE_GREEN_BIRD_VS1
+Value=1
+Image=..\img\bird1.jpg
+Value=2
+Image=..\img\bird2.jpg
+Value=3
+Image=..\img\bird3.png

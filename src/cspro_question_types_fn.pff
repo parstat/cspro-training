@@ -1,0 +1,8 @@
+﻿[Run Information]
+Version=CSPro 7.4
+AppType=Entry
+
+[Files]
+Application=.\cspro_question_types_fn.ent
+InputData=.\data.csdb
+Paradata=.\cspro_question_types_fn.cslog

@@ -4,3 +4,12 @@ Version=CSPro 7.4
 [LANGUAGES]
 EN=English
 
+[QUESTION]
+Field=QT_DICT_DICT.EMAIL
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 Please add your email\par
+EN=}
+
