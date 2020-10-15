@@ -1,0 +1,388 @@
+﻿[Dictionary]
+Version=CSPro 7.4
+Label=covid-19
+Name=COVID_19_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=80B9F15039BF11D44DFB7BCD06D892C8A7071D8DFF98E57CA68BD1073F2A1625
+
+[Level]
+Label=covid-19 Level
+Name=COVID_19_LEVEL
+
+[IdItems]
+
+[Item]
+Label=covid-19 Identification
+Name=COVID_19_ID
+Start=2
+Len=3
+ZeroFill=Yes
+
+[Record]
+Label=Patient Information
+Name=PATIENT_INFO
+RecordTypeValue='1'
+RecordLen=98
+
+[Item]
+Label=Name
+Name=NAME
+Start=5
+Len=20
+DataType=Alpha
+
+[Item]
+Label=Surname
+Name=SURNAME
+Start=25
+Len=20
+DataType=Alpha
+
+[Item]
+Label=Gender
+Name=GENDER
+Start=45
+Len=1
+
+[ValueSet]
+Label=Gender
+Name=GENDER_VS1
+Value=1;Male
+Value=2;Female
+Value=9;Unknown
+Name=MISSING,Special
+
+[Item]
+Label=Date of birth
+Name=DATE_OF_BIRTH
+Start=46
+Len=8
+
+[ValueSet]
+Label=Date of birth
+Name=DATE_OF_BIRTH_VS1
+Value=19000101:20210101
+Value=-1
+Name=MISSING,Special
+
+[Item]
+Label=Phone Number
+Name=PHONE_NUMBER
+Start=54
+Len=12
+DataType=Alpha
+
+[Item]
+Label=Email
+Name=EMAIL
+Start=66
+Len=30
+DataType=Alpha
+
+[Item]
+Label=Country of Residence
+Name=RESIDENCE
+Start=96
+Len=1
+
+[ValueSet]
+Label=Country of Residence
+Name=RESIDENCE_VS1
+Value=1;Albania
+Value=2;Denmark
+Value=3;Italy
+Value=4;Moldova
+Value=5;Poland
+Value=9;Unknown
+Name=MISSING,Special
+
+[Item]
+Label=COVID Case Status
+Name=COVID_STATUS
+Start=97
+Len=1
+
+[ValueSet]
+Label=COVID Case Status
+Name=COVID_STATUS_VS1
+Value=1;Suspended
+Value=2;Probable
+Value=3;Confirmed
+
+[Item]
+Label=Current Status
+Name=CURRENT_STATUS
+Start=98
+Len=1
+
+[ValueSet]
+Label=Current Status
+Name=CURRENT_STATUS_VS1
+Value=0;Dead
+Value=1;Alive
+
+[Record]
+Label=Symptoms
+Name=SYMPTOMS
+RecordTypeValue='2'
+RecordLen=21
+
+[Item]
+Label=Patient had symptoms?
+Name=PATIENT_HAD_SYMPTOMS
+Start=5
+Len=1
+
+[ValueSet]
+Label=Patient had symptoms?
+Name=PATIENT_HAD_SYMPTOMS_VS1
+Link=165320096
+Value=1;Yes
+Value=0;No
+Value=9;Unknown
+Name=MISSING,Special
+
+[Item]
+Label=Date of first symptom
+Name=DATE_OF_FIRST_SYMPTOM
+Start=6
+Len=8
+
+[ValueSet]
+Label=Date of first symptom
+Name=DATE_OF_FIRST_SYMPTOM_VS1
+Value=20191201:20210101
+Value=-1
+Name=MISSING,Special
+
+[Item]
+Label=Fever
+Name=FEVER
+Start=14
+Len=1
+
+[ValueSet]
+Label=Fever
+Name=FEVER_VS1
+Link=165320096
+
+[Item]
+Label=Sore throat
+Name=SORE_THROAT
+Start=15
+Len=1
+
+[ValueSet]
+Label=Sore throat
+Name=SORE_THROAT_VS1
+Link=165320096
+
+[Item]
+Label=Runny nose
+Name=RUNNY_NOSE
+Start=16
+Len=1
+
+[ValueSet]
+Label=Runny nose
+Name=RUNNY_NOSE_VS1
+Link=165320096
+
+[Item]
+Label=Cough
+Name=COUGH
+Start=17
+Len=1
+
+[ValueSet]
+Label=Cough
+Name=COUGH_VS1
+Link=165320096
+
+[Item]
+Label=Shortness of Breath
+Name=SHORTNESS_OF_BREATH
+Start=18
+Len=1
+
+[ValueSet]
+Label=Shortness of Breath
+Name=SHORTNESS_OF_BREATH_VS1
+Link=165320096
+
+[Item]
+Label=Vomiting
+Name=VOMITING
+Start=19
+Len=1
+
+[ValueSet]
+Label=Vomiting
+Name=VOMITING_VS1
+Link=165320096
+
+[Item]
+Label=Nausea
+Name=NAUSEA
+Start=20
+Len=1
+
+[ValueSet]
+Label=Nausea
+Name=NAUSEA_VS1
+Link=165320096
+
+[Item]
+Label=Diarrhoea
+Name=DIARRHOEA
+Start=21
+Len=1
+
+[ValueSet]
+Label=Diarrhoea
+Name=DIARRHOEA_VS1
+Link=165320096
+
+[Record]
+Label=Sample collected
+Name=SAMPLE_COLLECTED
+RecordTypeValue='3'
+RecordLen=35
+
+[Item]
+Label=What type of respiratory sample was collected?
+Name=SAMPLE_TYPE
+Start=5
+Len=1
+
+[ValueSet]
+Label=What type of respiratory sample was collected?
+Name=SAMPLE_TYPE_VS1
+Value=1;Nasal swab  
+Value=2;Throat swab
+Value=3;Nasopharyngeal swab
+Value=9;Other
+
+[Item]
+Label=Other
+Name=SAMPLE_TYPE_OTHER
+Start=6
+Len=30
+DataType=Alpha
+
+[Record]
+Label=Clinical Course
+Name=CLINICAL_COURSE
+RecordTypeValue='4'
+RecordLen=99
+
+[Item]
+Label=Hospitalization required:
+Name=HOSPITALIZATION_REQUIRED
+Start=5
+Len=1
+
+[ValueSet]
+Label=Hospitalization required:
+Name=HOSPITALIZATION_REQUIRED_VS1
+Link=165320096
+
+[Item]
+Label=Name of the hospital 
+Name=NAME_OF_THE_HOSPITAL
+Start=6
+Len=30
+DataType=Alpha
+
+[Item]
+Label=ICU (Intensive Care Unit) admission required?   
+Name=ICU_INTENSIVE_CARE_UNIT_ADMISSION_REQUIRED
+Start=36
+Len=1
+
+[ValueSet]
+Label=ICU (Intensive Care Unit) admission required?   
+Name=ICU_INTENSIVE_CARE_UNIT_ADMISSION_REQUIRED_VS1
+Link=165320096
+
+[Item]
+Label=Acute Respiratory Distress Syndrome (ARDS)     
+Name=ACUTE_RESPIRATORY_DISTRESS_SYNDROME_ARDS
+Start=37
+Len=1
+
+[ValueSet]
+Label=Acute Respiratory Distress Syndrome (ARDS)     
+Name=ACUTE_RESPIRATORY_DISTRESS_SYNDROME_ARDS_VS1
+Link=165320096
+
+[Item]
+Label=Pneumonia by chest X-ray
+Name=PNEUMONIA_BY_CHEST_X_RAY
+Start=38
+Len=1
+
+[ValueSet]
+Label=Pneumonia by chest X-ray
+Name=PNEUMONIA_BY_CHEST_X_RAY_VS1
+Value=1;Yes
+Value=0;No
+Value=8;Not Applicable
+Name=NOTAPPL,Special
+
+[Item]
+Label=X-Ray Date
+Name=X_RAY_DATE
+Start=39
+Len=8
+
+[ValueSet]
+Label=X-Ray Date
+Name=X_RAY_DATE_VS1
+Value=20191201:20210101
+Value=-1
+Name=MISSING,Special
+
+[Item]
+Label=Other severe or life-threatening illness suggestive of an infection
+Name=OTHER_INFECTIONS
+Start=47
+Len=1
+
+[ValueSet]
+Label=Other severe or life-threatening illness suggestive of an infection
+Name=OTHER_INFECTIONS_VS1
+Link=165320096
+
+[Item]
+Label=Specify other severe or life-threating illness suggestive of an infection 
+Name=SPECY_INFECTION
+Start=48
+Len=50
+DataType=Alpha
+
+[Item]
+Label=Mechanical ventilation required
+Name=MECHANICAL_VENTILATION_REQUIRED
+Start=98
+Len=1
+
+[ValueSet]
+Label=Mechanical ventilation required
+Name=MECHANICAL_VENTILATION_REQUIRED_VS1
+Link=165320096
+
+[Item]
+Label=Extracorporeal membrane oxygenation (EMO)
+Name=EMO
+Start=99
+Len=1
+
+[ValueSet]
+Label=Extracorporeal membrane oxygenation (EMO)
+Name=EMO_VS1
+Link=165320096

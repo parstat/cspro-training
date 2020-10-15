@@ -1,0 +1,27 @@
+﻿[CSPro Application]
+Version=CSPro 7.4
+Label=COVID_19
+Name=COVID_19
+AppType=DataEntry
+OperatorID=No
+CAPI=Yes
+CAPIFont1=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont2=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont1Color=0
+CAPIFont2Color=16711680
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ComboBoxShowOnlyDiscreteValues=Yes
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
+[AppCode]
+File=.\COVID-19.ent.apc
+[Message]
+File=.\COVID-19.ent.mgf
+[Help]
+File=.\COVID-19.ent.qsf
+[Forms]
+File=.\COVID-19.fmf
+[Dictionary Types]
+Dict-Type=.\covid-19.dcf,Input,.\COVID-19.fmf
