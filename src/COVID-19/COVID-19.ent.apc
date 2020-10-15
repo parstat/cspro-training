@@ -6,41 +6,61 @@ PROC COVID_19_FF
 
 PROC NAME
 postproc
+
 if($ = "") then
 	errmsg("Name can not be emtpy");
 	reenter;
 endif;
+
 PROC GENDER
 postproc
+
 list string missingBirthdayOptions;
+
 missingBirthdayOptions.add("Known");//1
+
 missingBirthdayOptions.add("Unknown");//2
+
 numeric selection = missingBirthdayOptions.show("Birthday of the patient is:");
+
 if(selection = 2) then 
 	DATE_OF_BIRTH = missing;
 	skip to PHONE_NUMBER;
 endif;
+
 PROC EMAIL
 postproc
+
 // Basic validation for email
 if !regexmatch(EMAIL, "^[^@\s]+@[^@\s]+\.[^@\s]+$") then
     errmsg("Email not correct, plese fix");
 	reenter;
 endif;
+
 PROC PATIENT_HAD_SYMPTOMS
 postproc
+
 if($ in 0,9) then
 	skip to SAMPLE_TYPE;
 endif;
+
 PROC SAMPLE_TYPE_OTHER
 preproc
+
 ask if SAMPLE_TYPE = 9
+
 PROC NAME_OF_THE_HOSPITAL
 preproc
+
 ask if HOSPITALIZATION_REQUIRED = 1
+
 PROC X_RAY_DATE
 preproc
+
 ask if PNEUMONIA_BY_CHEST_X_RAY = 1 //Yes
+
 PROC SPECY_INFECTION
 preproc
+
 ask if OTHER_INFECTIONS = 1 //Yes
+
