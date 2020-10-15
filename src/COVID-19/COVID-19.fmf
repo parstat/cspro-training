@@ -1,5 +1,5 @@
 ﻿[FormFile]
-Version=CSPro 7.4
+Version=CSPro 7.5
 Name=COVID_19_FF
 Label=COVID-19
 DefaultTextFont=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
@@ -467,8 +467,8 @@ UseUnicodeTextBox=Yes
 Form=5
   
 [Text]
-Position=50,60,185,76
-Text=Name of the hospital 
+Position=50,60,181,76
+Text=Name of the hospital
  
   
 [Field]
@@ -481,8 +481,8 @@ DataCaptureType=RadioButton
 Form=5
   
 [Text]
-Position=50,90,350,106
-Text=ICU (Intensive Care Unit) admission required?   
+Position=50,90,338,106
+Text=ICU (Intensive Care Unit) admission required?
  
   
 [Field]
@@ -495,8 +495,8 @@ DataCaptureType=RadioButton
 Form=5
   
 [Text]
-Position=50,120,351,136
-Text=Acute Respiratory Distress Syndrome (ARDS)     
+Position=50,120,331,136
+Text=Acute Respiratory Distress Syndrome (ARDS)
  
   
 [Field]
@@ -552,8 +552,8 @@ UseUnicodeTextBox=Yes
 Form=5
   
 [Text]
-Position=50,240,496,256
-Text=Specify other severe or life-threating illness suggestive of an infection 
+Position=50,240,492,256
+Text=Specify other severe or life-threating illness suggestive of an infection
  
   
 [Field]
