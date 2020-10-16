@@ -33,7 +33,11 @@ postproc
 
 // Basic validation for email
 if !regexmatch(EMAIL, "^[^@\s]+@[^@\s]+\.[^@\s]+$") then
-    errmsg("Email not correct, plese fix");
+	if(getlanguage() = "EN") then 
+		errmsg(1, EMAIL);//Email not correct, plese fix
+	elseif(getlanguage() = "RO") then
+		errmsg(2); //Email nu este corect
+	endif;
 	reenter;
 endif;
 

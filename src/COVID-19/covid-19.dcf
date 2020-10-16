@@ -1,5 +1,5 @@
 ﻿[Dictionary]
-Version=CSPro 7.4
+Version=CSPro 7.5
 Label=covid-19
 Name=COVID_19_DICT
 RecordTypeStart=1
@@ -8,6 +8,10 @@ Positions=Relative
 ZeroFill=No
 DecimalChar=Yes
 SecurityOptions=80B9F15039BF11D44DFB7BCD06D892C8A7071D8DFF98E57CA68BD1073F2A1625
+
+[Languages]
+EN=English
+RO=Romanian
 
 [Level]
 Label=covid-19 Level
@@ -29,31 +33,31 @@ RecordTypeValue='1'
 RecordLen=98
 
 [Item]
-Label=Name
+Label=Name|Nume
 Name=NAME
 Start=5
 Len=20
 DataType=Alpha
 
 [Item]
-Label=Surname
+Label=Surname|Prenume
 Name=SURNAME
 Start=25
 Len=20
 DataType=Alpha
 
 [Item]
-Label=Gender
+Label=Gender|Gen
 Name=GENDER
 Start=45
 Len=1
 
 [ValueSet]
-Label=Gender
+Label=Gender|Gen
 Name=GENDER_VS1
-Value=1;Male
-Value=2;Female
-Value=9;Unknown
+Value=1;Male|Masculin
+Value=2;Female|Feminin
+Value=9;Unknown|Necunoscut
 Name=MISSING,Special
 
 [Item]
@@ -262,7 +266,7 @@ Len=1
 [ValueSet]
 Label=What type of respiratory sample was collected?
 Name=SAMPLE_TYPE_VS1
-Value=1;Nasal swab  
+Value=1;Nasal swab
 Value=2;Throat swab
 Value=3;Nasopharyngeal swab
 Value=9;Other
@@ -292,31 +296,31 @@ Name=HOSPITALIZATION_REQUIRED_VS1
 Link=165320096
 
 [Item]
-Label=Name of the hospital 
+Label=Name of the hospital
 Name=NAME_OF_THE_HOSPITAL
 Start=6
 Len=30
 DataType=Alpha
 
 [Item]
-Label=ICU (Intensive Care Unit) admission required?   
+Label=ICU (Intensive Care Unit) admission required?
 Name=ICU_INTENSIVE_CARE_UNIT_ADMISSION_REQUIRED
 Start=36
 Len=1
 
 [ValueSet]
-Label=ICU (Intensive Care Unit) admission required?   
+Label=ICU (Intensive Care Unit) admission required?
 Name=ICU_INTENSIVE_CARE_UNIT_ADMISSION_REQUIRED_VS1
 Link=165320096
 
 [Item]
-Label=Acute Respiratory Distress Syndrome (ARDS)     
+Label=Acute Respiratory Distress Syndrome (ARDS)
 Name=ACUTE_RESPIRATORY_DISTRESS_SYNDROME_ARDS
 Start=37
 Len=1
 
 [ValueSet]
-Label=Acute Respiratory Distress Syndrome (ARDS)     
+Label=Acute Respiratory Distress Syndrome (ARDS)
 Name=ACUTE_RESPIRATORY_DISTRESS_SYNDROME_ARDS_VS1
 Link=165320096
 
@@ -359,7 +363,7 @@ Name=OTHER_INFECTIONS_VS1
 Link=165320096
 
 [Item]
-Label=Specify other severe or life-threating illness suggestive of an infection 
+Label=Specify other severe or life-threating illness suggestive of an infection
 Name=SPECY_INFECTION
 Start=48
 Len=50

@@ -1,6 +1,275 @@
 ﻿[CAPI QUESTIONS]
-Version=CSPro 7.4
+Version=CSPro 7.5
 
 [LANGUAGES]
 EN=English
+RO=Romanina
+
+[QUESTION]
+Field=COVID_19_DICT.ACUTE_RESPIRATORY_DISTRESS_SYNDROME_ARDS
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 Has %NAME% %SURNAME% exerienced ARDS?\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.COUGH
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 Does %NAME% %SURNAME% had cough?\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.COVID_19_ID
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 Plese enter a unique ID\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.COVID_STATUS
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 What is the covid case status for %NAME% %SURNAME%\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.CURRENT_STATUS
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 %NAME% %SURNAME% is\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.DATE_OF_BIRTH
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 Please write the date of birth for %NAME% %SURNAME%\par
+EN=\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.DATE_OF_FIRST_SYMPTOM
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 Slect the date of the %NAME% %SURNAME% first symptom\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.DIARRHOEA
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 Does %NAME% %SURNAME% experienced diarrhoea?\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.EMAIL
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 What is the email of %NAME% %SURNAME%\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.EMO
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 Was EMO used for %NAME% %SURNAME%?\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.FEVER
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 Does %NAME% %SURNAME% had Fever?\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.GENDER
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 What is the gender of %NAME% %SURNAME%\par
+EN=\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.HOSPITALIZATION_REQUIRED
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 Was hospitalization required for %NAME% %SURNAME%\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.ICU_INTENSIVE_CARE_UNIT_ADMISSION_REQUIRED
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 Was %NAME% %SURNAME% admitid to ICU?\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.MECHANICAL_VENTILATION_REQUIRED
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 Was mechanical ventilation used for %NAME% %SURNAME%?\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.NAME
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 Please enter the name of the patient\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.NAME_OF_THE_HOSPITAL
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 What was the name of the hospital where %NAME% %SURNAME% was hospitalized?\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.NAUSEA
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 Does %NAME% %SURNAME% experienced nausea?\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.OTHER_INFECTIONS
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 Did %NAME% %SURNAME% experience life-threating illnes?\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.PATIENT_HAD_SYMPTOMS
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 Did %NAME% %SURNAME% have symptoms?\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.PHONE_NUMBER
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 What is the phone number for %NAME% %SURNAME%\par
+EN=\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.PNEUMONIA_BY_CHEST_X_RAY
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 Was performed a chest X-Ray for %NAME% %SURNAME%?\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.RESIDENCE
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 Please select the country of residence for %NAME% %SURNAME%\par
+EN=\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.RUNNY_NOSE
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 Does %NAME% %SURNAME% has runny nouse\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.SAMPLE_TYPE
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 Tipe fo sample collected for %NAME% %SURNAME%\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.SAMPLE_TYPE_OTHER
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 Other type of sample for %NAME% %SURNAME%\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.SHORTNESS_OF_BREATH
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 Does %NAME% %SURNAME% experienced shortens of breath?\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.SORE_THROAT
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 Does %NAME% %SURNAME% had sore throat\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.SPECY_INFECTION
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 What other life threating illnes has %NAME% %SURNAME% experienced?\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.SURNAME
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 What is the surname of %NAME%\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.VOMITING
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 Does %NAME% %SURNAME% experienced vomiting?\par
+EN=}
+
+[QUESTION]
+Field=COVID_19_DICT.X_RAY_DATE
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 At what date was performed the X-Ray for %NAME% %SURNAME%?\par
+EN=}
+
+[HELP]
+Field=COVID_19_DICT.COVID_19_ID
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+EN=\pard\cf1\fs16 This is usually the person id\par
+EN=}
 
