@@ -12,6 +12,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 Has %NAME% %SURNAME% exerienced ARDS?\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 A experimentat %NAME% %SURNAME% ARDS ?\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.COUGH
@@ -20,14 +25,24 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 Does %NAME% %SURNAME% had cough?\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset204 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 %NAME%\f1\lang1049  \f0\lang2057 %SURNAME% \f1\lang1049  \f0\lang2057 are tuse\f1\lang1049  \f0\lang2057 ?\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.COVID_19_ID
 EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Arial;}}
 EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
-EN=\pard\cf1\fs16 Plese enter a unique ID\par
+EN=\pard\cf1\fs16 Please enter a unique ID\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset238 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs24 V\f1\'e3 rug\'e3m s\'e3 introduce\u539?i un ID unic\f0\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.COVID_STATUS
@@ -36,6 +51,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 What is the covid case status for %NAME% %SURNAME%\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16 Care este starea cazului covid pentru  \lang2057 %NAME% %SURNAME%\lang1033\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.CURRENT_STATUS
@@ -44,6 +64,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 %NAME% %SURNAME% is\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 %NAME% %SURNAME% este\lang1033\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.DATE_OF_BIRTH
@@ -53,6 +78,11 @@ EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 Please write the date of birth for %NAME% %SURNAME%\par
 EN=\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset238 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 V\f1\'e3 rug\'e3m s\'e3 indica\u539?i  data na\u537?terii pentru\f0\lang1033  \lang2057  %NAME% %SURNAME%\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.DATE_OF_FIRST_SYMPTOM
@@ -61,6 +91,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 Slect the date of the %NAME% %SURNAME% first symptom\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset238 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 Selecta\f1\u539?i data primului simptom  \f0  %NAME% %SURNAME%\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.DIARRHOEA
@@ -69,6 +104,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 Does %NAME% %SURNAME% experienced diarrhoea?\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 %NAME% %SURNAME% a suferit diaree ?\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.EMAIL
@@ -77,6 +117,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 What is the email of %NAME% %SURNAME%\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset238 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16 Care este adresa de e-mail a\f1\lang1048  \f0\lang1033  \lang2057 %NAME% %SURNAME%\lang1033   \lang2057\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.EMO
@@ -85,6 +130,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 Was EMO used for %NAME% %SURNAME%?\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset238 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 A fost utilizat\f1\'e3 EMO pentru\f0\lang1033  \f1\lang2057 %NAME%\f0\lang1033  \f1\lang2057 %SURNAME%?\f0\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.FEVER
@@ -93,6 +143,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 Does %NAME% %SURNAME% had Fever?\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset238 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 %NAME% %SURNAME% a avut febr\f1\'e3?\f0\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.GENDER
@@ -102,6 +157,11 @@ EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 What is the gender of %NAME% %SURNAME%\par
 EN=\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset204 Arial;}{\f2\fnil\fcharset238 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 Care este genul\f1\lang1049  \f2\lang1048 pentru\f0\lang1033   \lang2057 %NAME% %SURNAME%\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.HOSPITALIZATION_REQUIRED
@@ -110,6 +170,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 Was hospitalization required for %NAME% %SURNAME%\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset238 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 A fost necesar\f1\'e3 spitalizarea pentru\f0\lang1033  \f1\lang2057 %NAME%\f0\lang1033  \f1\lang2057 %SURNAME%\f0\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.ICU_INTENSIVE_CARE_UNIT_ADMISSION_REQUIRED
@@ -118,6 +183,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 Was %NAME% %SURNAME% admitid to ICU?\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 A fost %NAME% %SURNAME% admis la ICU ?\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.MECHANICAL_VENTILATION_REQUIRED
@@ -126,6 +196,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 Was mechanical ventilation used for %NAME% %SURNAME%?\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset238 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 A fost utilizat\f1\'e3 ventila\u539?ia mecanic\'e3 pentru\f0\lang1033  \f1\lang2057 %NAME%\f0\lang1033  \f1\lang2057 %SURNAME%?\f0\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.NAME
@@ -134,6 +209,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 Please enter the name of the patient\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset238 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 V\f1\'e3 rug\'e3m s\'e3 introduce\u539?i numele pacientului\f0\fs24\lang1033\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.NAME_OF_THE_HOSPITAL
@@ -142,6 +222,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 What was the name of the hospital where %NAME% %SURNAME% was hospitalized?\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset238 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 Care a fost \f1\lang1048 denumirea \f0\lang2057  spitalului \'een care a fost internat %NAME% %SURNAME% ?\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.NAUSEA
@@ -150,6 +235,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 Does %NAME% %SURNAME% experienced nausea?\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset238 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 %NAME% %SURNAME% a avut grea\f1\u539?\'e3\f0\lang1033  \f1\lang2057 ?\f0\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.OTHER_INFECTIONS
@@ -158,6 +248,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 Did %NAME% %SURNAME% experience life-threating illnes?\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset238 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 A suferit %NAME% %SURNAME% o boal\f1\'e3 care pune via\u539?a \f0\'een pericol ?\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.PATIENT_HAD_SYMPTOMS
@@ -166,6 +261,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 Did %NAME% %SURNAME% have symptoms?\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 %NAME% %SURNAME% a avut simptome?\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.PHONE_NUMBER
@@ -175,6 +275,11 @@ EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 What is the phone number for %NAME% %SURNAME%\par
 EN=\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset238 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 Care este numarul  de telefon\f1\lang1048  pentru \f0\lang2057   %NAME% %SURNAME%\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.PNEUMONIA_BY_CHEST_X_RAY
@@ -183,6 +288,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 Was performed a chest X-Ray for %NAME% %SURNAME%?\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset238 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 A fost efectuat\f1\'e3 o radiografie toracic\'e3 pentru\f0\lang1033  \f1\lang2057 %NAME%\f0\lang1033  \f1\lang2057 %SURNAME%\f0\lang1033  \f1\lang2057 ?\f0\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.RESIDENCE
@@ -192,6 +302,11 @@ EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 Please select the country of residence for %NAME% %SURNAME%\par
 EN=\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset238 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16 V\f1\'e3 rug\'e3m s\'e3 selecta\u539?i \u539?ara de re\u537?edin\u539?\'e3 pentru  \f0\lang2057  %NAME% %SURNAME%\lang1033\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.RUNNY_NOSE
@@ -200,6 +315,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 Does %NAME% %SURNAME% has runny nouse\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset238 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 %NAME% %SURNAME% prezint\f1\lang1048\'e3\f0\lang2057  rinoree\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.SAMPLE_TYPE
@@ -208,6 +328,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 Tipe fo sample collected for %NAME% %SURNAME%\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset238 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 Tipul e\f1\u537?antionului colectat pentru\f0\lang1033  \f1\lang2057 %NAME%\f0\lang1033  \f1\lang2057 %SURNAME%\f0\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.SAMPLE_TYPE_OTHER
@@ -216,6 +341,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 Other type of sample for %NAME% %SURNAME%\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset238 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 Alt tip de e\f1\u537?antion pentru\f0\lang1033  \f1\lang2057 %NAME%\f0\lang1033  \f1\lang2057 %SURNAME%\f0\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.SHORTNESS_OF_BREATH
@@ -224,6 +354,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 Does %NAME% %SURNAME% experienced shortens of breath?\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset204 Arial;}{\f2\fnil\fcharset238 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 %NAME%\f1\lang1049  \f0\lang2057 %SURNAME% a avut dificult\f2\'e3\u539?i de respira\u539?ie\f1\lang1049  (dispnee)\f2\lang2057 ?\f0\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.SORE_THROAT
@@ -232,6 +367,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 Does %NAME% %SURNAME% had sore throat\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 %NAME% %SURNAME% are dureri \'een g\'e2t\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.SPECY_INFECTION
@@ -240,6 +380,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 What other life threating illnes has %NAME% %SURNAME% experienced?\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset238 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 Ce alt\f1\'e3 boal\'e3 care pune via\u539?a \f0\'een pericol a suferit %NAME% %SURNAME%?\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.SURNAME
@@ -248,6 +393,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 What is the surname of %NAME%\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset204 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 Care este numele de familie\f1\lang1049  \f0\lang2057 %NAME%\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.VOMITING
@@ -256,6 +406,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 Does %NAME% %SURNAME% experienced vomiting?\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset204 Arial;}{\f2\fnil\fcharset238 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 %NAME%\f1\lang1049  \f0\lang2057 %SURNAME% a \lang1033 vomitat \f2\lang2057 ?\f0\par
+RO=}
 
 [QUESTION]
 Field=COVID_19_DICT.X_RAY_DATE
@@ -264,6 +419,11 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 At what date was performed the X-Ray for %NAME% %SURNAME%?\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset238 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057 La ce dat\f1\'e3 a fost efectuat\'e3 radiografia pentru\f0\lang1033  \f1\lang2057 %NAME%\f0\lang1033  \f1\lang2057 %SURNAME%\f0\lang1033  \f1\lang2057 ?\f0\lang1033  \lang2057\par
+RO=}
 
 [HELP]
 Field=COVID_19_DICT.COVID_19_ID
@@ -272,4 +432,108 @@ EN={\colortbl ;\red0\green0\blue0;}
 EN={\*\generator Riched20 10.0.19041}\viewkind4\uc1
 EN=\pard\cf1\fs16 This is usually the person id\par
 EN=}
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs24 Acesta este de obicei identitatea persoanei\par
+RO=}
+
+[HELP]
+Field=COVID_19_DICT.NAME
+
+[HELP]
+Field=COVID_19_DICT.SURNAME
+
+[HELP]
+Field=COVID_19_DICT.GENDER
+
+[HELP]
+Field=COVID_19_DICT.DATE_OF_BIRTH
+
+[HELP]
+Field=COVID_19_DICT.PHONE_NUMBER
+RO={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+RO={\colortbl ;\red0\green0\blue0;}
+RO={\*\generator Riched20 10.0.19041}\viewkind4\uc1
+RO=\pard\cf1\fs16\lang2057\par
+RO=\par
+RO=}
+
+[HELP]
+Field=COVID_19_DICT.EMAIL
+
+[HELP]
+Field=COVID_19_DICT.RESIDENCE
+
+[HELP]
+Field=COVID_19_DICT.COVID_STATUS
+
+[HELP]
+Field=COVID_19_DICT.CURRENT_STATUS
+
+[HELP]
+Field=COVID_19_DICT.PATIENT_HAD_SYMPTOMS
+
+[HELP]
+Field=COVID_19_DICT.DATE_OF_FIRST_SYMPTOM
+
+[HELP]
+Field=COVID_19_DICT.FEVER
+
+[HELP]
+Field=COVID_19_DICT.SORE_THROAT
+
+[HELP]
+Field=COVID_19_DICT.RUNNY_NOSE
+
+[HELP]
+Field=COVID_19_DICT.COUGH
+
+[HELP]
+Field=COVID_19_DICT.SHORTNESS_OF_BREATH
+
+[HELP]
+Field=COVID_19_DICT.VOMITING
+
+[HELP]
+Field=COVID_19_DICT.NAUSEA
+
+[HELP]
+Field=COVID_19_DICT.DIARRHOEA
+
+[HELP]
+Field=COVID_19_DICT.SAMPLE_TYPE
+
+[HELP]
+Field=COVID_19_DICT.SAMPLE_TYPE_OTHER
+
+[HELP]
+Field=COVID_19_DICT.HOSPITALIZATION_REQUIRED
+
+[HELP]
+Field=COVID_19_DICT.NAME_OF_THE_HOSPITAL
+
+[HELP]
+Field=COVID_19_DICT.ICU_INTENSIVE_CARE_UNIT_ADMISSION_REQUIRED
+
+[HELP]
+Field=COVID_19_DICT.ACUTE_RESPIRATORY_DISTRESS_SYNDROME_ARDS
+
+[HELP]
+Field=COVID_19_DICT.PNEUMONIA_BY_CHEST_X_RAY
+
+[HELP]
+Field=COVID_19_DICT.X_RAY_DATE
+
+[HELP]
+Field=COVID_19_DICT.OTHER_INFECTIONS
+
+[HELP]
+Field=COVID_19_DICT.SPECY_INFECTION
+
+[HELP]
+Field=COVID_19_DICT.MECHANICAL_VENTILATION_REQUIRED
+
+[HELP]
+Field=COVID_19_DICT.EMO
 

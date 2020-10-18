@@ -8,15 +8,26 @@ PROC NAME
 postproc
 
 if($ = "") then
+ if(getlanguage() = "EN") then 
 	errmsg("Name can not be emtpy");
+	elseif(getlanguage() = "RO") then
+	errmsg("Numele nu poate fi necompletat");
+		endif;
 	reenter;
 endif;
+
+
+
+
 
 PROC GENDER
 postproc
 
 list string missingBirthdayOptions;
 
+ if(getlanguage() = "EN") then 
+ 
+ 
 missingBirthdayOptions.add("Known");//1
 
 missingBirthdayOptions.add("Unknown");//2
@@ -27,6 +38,31 @@ if(selection = 2) then
 	DATE_OF_BIRTH = missing;
 	skip to PHONE_NUMBER;
 endif;
+
+
+elseif(getlanguage() = "RO") then
+
+
+ 
+missingBirthdayOptions.add("Cunoscut");//1
+
+missingBirthdayOptions.add("necunoscut");//2
+
+numeric selection = missingBirthdayOptions.show("Ziua de naștere a pacientului este:");
+
+if(selection = 2) then 
+	DATE_OF_BIRTH = missing;
+	skip to PHONE_NUMBER;
+endif;
+
+endif;
+
+
+
+
+
+
+
 
 PROC EMAIL
 postproc

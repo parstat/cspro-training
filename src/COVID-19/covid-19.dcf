@@ -20,14 +20,14 @@ Name=COVID_19_LEVEL
 [IdItems]
 
 [Item]
-Label=covid-19 Identification
+Label=covid-19 Identification|covid-19 Identificare
 Name=COVID_19_ID
 Start=2
 Len=3
 ZeroFill=Yes
 
 [Record]
-Label=Patient Information
+Label=Patient Information|Informația despre pacient
 Name=PATIENT_INFO
 RecordTypeValue='1'
 RecordLen=98
@@ -61,20 +61,20 @@ Value=9;Unknown|Necunoscut
 Name=MISSING,Special
 
 [Item]
-Label=Date of birth
+Label=Date of birth|Data nașterii
 Name=DATE_OF_BIRTH
 Start=46
 Len=8
 
 [ValueSet]
-Label=Date of birth
+Label=Date of birth|Data nașterii
 Name=DATE_OF_BIRTH_VS1
 Value=19000101:20210101
 Value=-1
 Name=MISSING,Special
 
 [Item]
-Label=Phone Number
+Label=Phone Number|Număr de telefon
 Name=PHONE_NUMBER
 Start=54
 Len=12
@@ -88,305 +88,305 @@ Len=30
 DataType=Alpha
 
 [Item]
-Label=Country of Residence
+Label=Country of Residence|Țara de resedință
 Name=RESIDENCE
 Start=96
 Len=1
 
 [ValueSet]
-Label=Country of Residence
+Label=Country of Residence|Țara de resedință
 Name=RESIDENCE_VS1
 Value=1;Albania
-Value=2;Denmark
-Value=3;Italy
+Value=2;Denmark|Danemarca
+Value=3;Italy|Italia
 Value=4;Moldova
-Value=5;Poland
-Value=9;Unknown
+Value=5;Poland|Polonia
+Value=9;Unknown|Necunoscut
 Name=MISSING,Special
 
 [Item]
-Label=COVID Case Status
+Label=COVID Case Status|Starea cazului COVID
 Name=COVID_STATUS
 Start=97
 Len=1
 
 [ValueSet]
-Label=COVID Case Status
+Label=COVID Case Status|Starea cazului COVID
 Name=COVID_STATUS_VS1
-Value=1;Suspended
-Value=2;Probable
-Value=3;Confirmed
+Value=1;Suspended|Suspendat
+Value=2;Probable|Probabil
+Value=3;Confirmed|Confirmat
 
 [Item]
-Label=Current Status
+Label=Current Status|Statusul curent
 Name=CURRENT_STATUS
 Start=98
 Len=1
 
 [ValueSet]
-Label=Current Status
+Label=Current Status|Statusul curent
 Name=CURRENT_STATUS_VS1
-Value=0;Dead
-Value=1;Alive
+Value=0;Dead|Decedat
+Value=1;Alive|În viaţă
 
 [Record]
-Label=Symptoms
+Label=Symptoms|Simptomatologie
 Name=SYMPTOMS
 RecordTypeValue='2'
 RecordLen=21
 
 [Item]
-Label=Patient had symptoms?
+Label=Patient had symptoms?|Pacientul a avut simptome?
 Name=PATIENT_HAD_SYMPTOMS
 Start=5
 Len=1
 
 [ValueSet]
-Label=Patient had symptoms?
+Label=Patient had symptoms?|Pacientul a avut simptome?
 Name=PATIENT_HAD_SYMPTOMS_VS1
 Link=165320096
-Value=1;Yes
-Value=0;No
-Value=9;Unknown
+Value=1;Yes|Da
+Value=0;No|Nu
+Value=9;Unknown|Necunoscută
 Name=MISSING,Special
 
 [Item]
-Label=Date of first symptom
+Label=Date of first symptom|Data apariției primului simptom
 Name=DATE_OF_FIRST_SYMPTOM
 Start=6
 Len=8
 
 [ValueSet]
-Label=Date of first symptom
+Label=Date of first symptom|Data apariției primului simptom
 Name=DATE_OF_FIRST_SYMPTOM_VS1
 Value=20191201:20210101
 Value=-1
 Name=MISSING,Special
 
 [Item]
-Label=Fever
+Label=Fever|Febră
 Name=FEVER
 Start=14
 Len=1
 
 [ValueSet]
-Label=Fever
+Label=Fever|Febră
 Name=FEVER_VS1
 Link=165320096
 
 [Item]
-Label=Sore throat
+Label=Sore throat|Durere de gât
 Name=SORE_THROAT
 Start=15
 Len=1
 
 [ValueSet]
-Label=Sore throat
+Label=Sore throat|Durere de gât
 Name=SORE_THROAT_VS1
 Link=165320096
 
 [Item]
-Label=Runny nose
+Label=Runny nose|Rinoree
 Name=RUNNY_NOSE
 Start=16
 Len=1
 
 [ValueSet]
-Label=Runny nose
+Label=Runny nose|Rinoree
 Name=RUNNY_NOSE_VS1
 Link=165320096
 
 [Item]
-Label=Cough
+Label=Cough|Tuse
 Name=COUGH
 Start=17
 Len=1
 
 [ValueSet]
-Label=Cough
+Label=Cough|Tuse
 Name=COUGH_VS1
 Link=165320096
 
 [Item]
-Label=Shortness of Breath
+Label=Shortness of Breath|Dispnee
 Name=SHORTNESS_OF_BREATH
 Start=18
 Len=1
 
 [ValueSet]
-Label=Shortness of Breath
+Label=Shortness of Breath|Dispnee
 Name=SHORTNESS_OF_BREATH_VS1
 Link=165320096
 
 [Item]
-Label=Vomiting
+Label=Vomiting|Vărsături
 Name=VOMITING
 Start=19
 Len=1
 
 [ValueSet]
-Label=Vomiting
+Label=Vomiting|Vărsături
 Name=VOMITING_VS1
 Link=165320096
 
 [Item]
-Label=Nausea
+Label=Nausea|Greaţă
 Name=NAUSEA
 Start=20
 Len=1
 
 [ValueSet]
-Label=Nausea
+Label=Nausea|Greaţă
 Name=NAUSEA_VS1
 Link=165320096
 
 [Item]
-Label=Diarrhoea
+Label=Diarrhoea|Diaree
 Name=DIARRHOEA
 Start=21
 Len=1
 
 [ValueSet]
-Label=Diarrhoea
+Label=Diarrhoea|Diaree
 Name=DIARRHOEA_VS1
 Link=165320096
 
 [Record]
-Label=Sample collected
+Label=Sample collected|Proba colectata
 Name=SAMPLE_COLLECTED
 RecordTypeValue='3'
 RecordLen=35
 
 [Item]
-Label=What type of respiratory sample was collected?
+Label=What type of respiratory sample was collected?|Ce tip de probă respiratorie a fost colectată?
 Name=SAMPLE_TYPE
 Start=5
 Len=1
 
 [ValueSet]
-Label=What type of respiratory sample was collected?
+Label=What type of respiratory sample was collected?|Ce tip de probă respiratorie a fost colectată?
 Name=SAMPLE_TYPE_VS1
-Value=1;Nasal swab
-Value=2;Throat swab
-Value=3;Nasopharyngeal swab
-Value=9;Other
+Value=1;Nasal swab|Tampon nazal
+Value=2;Throat swab|Tampon de gât
+Value=3;Nasopharyngeal swab|Tampon nazofaringian
+Value=9;Other|Alte
 
 [Item]
-Label=Other
+Label=Other|Alte
 Name=SAMPLE_TYPE_OTHER
 Start=6
 Len=30
 DataType=Alpha
 
 [Record]
-Label=Clinical Course
+Label=Clinical Course|Curs clinic
 Name=CLINICAL_COURSE
 RecordTypeValue='4'
 RecordLen=99
 
 [Item]
-Label=Hospitalization required:
+Label=Hospitalization required:|Necesitatea spitalizării:
 Name=HOSPITALIZATION_REQUIRED
 Start=5
 Len=1
 
 [ValueSet]
-Label=Hospitalization required:
+Label=Hospitalization required:|Necesitatea spitalizării:
 Name=HOSPITALIZATION_REQUIRED_VS1
 Link=165320096
 
 [Item]
-Label=Name of the hospital
+Label=Name of the hospital|Denumirea spitalului
 Name=NAME_OF_THE_HOSPITAL
 Start=6
 Len=30
 DataType=Alpha
 
 [Item]
-Label=ICU (Intensive Care Unit) admission required?
+Label=ICU (Intensive Care Unit) admission required?|Este necesară internarea la UTI (Unitatea de terapie intensivă) ?
 Name=ICU_INTENSIVE_CARE_UNIT_ADMISSION_REQUIRED
 Start=36
 Len=1
 
 [ValueSet]
-Label=ICU (Intensive Care Unit) admission required?
+Label=ICU (Intensive Care Unit) admission required?|Este necesară internarea la UTI (Unitatea de terapie intensivă) ?
 Name=ICU_INTENSIVE_CARE_UNIT_ADMISSION_REQUIRED_VS1
 Link=165320096
 
 [Item]
-Label=Acute Respiratory Distress Syndrome (ARDS)
+Label=Acute Respiratory Distress Syndrome (ARDS)|Sindromul de detresă respiratorie acută (ARDS)
 Name=ACUTE_RESPIRATORY_DISTRESS_SYNDROME_ARDS
 Start=37
 Len=1
 
 [ValueSet]
-Label=Acute Respiratory Distress Syndrome (ARDS)
+Label=Acute Respiratory Distress Syndrome (ARDS)|Sindromul de detresă respiratorie acută (ARDS)
 Name=ACUTE_RESPIRATORY_DISTRESS_SYNDROME_ARDS_VS1
 Link=165320096
 
 [Item]
-Label=Pneumonia by chest X-ray
+Label=Pneumonia by chest X-ray|Pneumonie prin radiografie toracică
 Name=PNEUMONIA_BY_CHEST_X_RAY
 Start=38
 Len=1
 
 [ValueSet]
-Label=Pneumonia by chest X-ray
+Label=Pneumonia by chest X-ray|Pneumonie prin radiografie toracică
 Name=PNEUMONIA_BY_CHEST_X_RAY_VS1
-Value=1;Yes
-Value=0;No
-Value=8;Not Applicable
+Value=1;Yes|Da
+Value=0;No|Nu
+Value=8;Not Applicable|Nu se aplică
 Name=NOTAPPL,Special
 
 [Item]
-Label=X-Ray Date
+Label=X-Ray Date|Data radiografiei
 Name=X_RAY_DATE
 Start=39
 Len=8
 
 [ValueSet]
-Label=X-Ray Date
+Label=X-Ray Date|Data radiografiei
 Name=X_RAY_DATE_VS1
 Value=20191201:20210101
 Value=-1
 Name=MISSING,Special
 
 [Item]
-Label=Other severe or life-threatening illness suggestive of an infection
+Label=Other severe or life-threatening illness suggestive of an infection|Alte boli severe sau care pun viața în pericol și care sugerează o infecție
 Name=OTHER_INFECTIONS
 Start=47
 Len=1
 
 [ValueSet]
-Label=Other severe or life-threatening illness suggestive of an infection
+Label=Other severe or life-threatening illness suggestive of an infection|Alte boli severe sau care pun viața în pericol și care sugerează o infecție
 Name=OTHER_INFECTIONS_VS1
 Link=165320096
 
 [Item]
-Label=Specify other severe or life-threating illness suggestive of an infection
+Label=Specify other severe or life-threating illness suggestive of an infection|Specificați alte boli severe sau care pun viața în pericol și care sugerează o infecție
 Name=SPECY_INFECTION
 Start=48
 Len=50
 DataType=Alpha
 
 [Item]
-Label=Mechanical ventilation required
+Label=Mechanical ventilation required|Este necesară ventilarea mecanică
 Name=MECHANICAL_VENTILATION_REQUIRED
 Start=98
 Len=1
 
 [ValueSet]
-Label=Mechanical ventilation required
+Label=Mechanical ventilation required|Este necesară ventilarea mecanică
 Name=MECHANICAL_VENTILATION_REQUIRED_VS1
 Link=165320096
 
 [Item]
-Label=Extracorporeal membrane oxygenation (EMO)
+Label=Extracorporeal membrane oxygenation (ECMO)|Oxigenarea membranei extracorporale (ECMO)
 Name=EMO
 Start=99
 Len=1
 
 [ValueSet]
-Label=Extracorporeal membrane oxygenation (EMO)
+Label=Extracorporeal membrane oxygenation (ECMO)|Oxigenarea membranei extracorporale (ECMO)
 Name=EMO_VS1
 Link=165320096
