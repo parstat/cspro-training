@@ -103,12 +103,11 @@ Name=COVID_19_ID
 Position=211,27,254,47
 Item=COVID_19_ID,COVID_19_DICT
 UseEnterKey=Yes
-FieldLabelType=DictionaryLabel
 Form=1
   
 [Text]
-Position=50,30,189,46
-Text=covid-19 Identification
+Position=50,30,63,46
+Text=ID
  
 [EndGroup]
   
@@ -580,8 +579,8 @@ DataCaptureType=RadioButton
 Form=5
   
 [Text]
-Position=50,300,341,316
-Text=Extracorporeal membrane oxygenation (EMO)
+Position=50,300,350,316
+Text=Extracorporeal membrane oxygenation (ECMO)
  
 [EndGroup]
   
