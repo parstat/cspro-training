@@ -26,3 +26,6 @@ File=.\COVID-19.ent.qsf
 File=.\COVID-19.fmf
 [Dictionary Types]
 Dict-Type=.\covid-19.dcf,Input,.\COVID-19.fmf
+[Sync]
+Server=http://192.168.1.3:8099/csweb/api
+Direction=Put

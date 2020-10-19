@@ -3,3 +3,5 @@ src/COVID-19/COVID-19.csdb
 src/COVID-19/COVID-19.cslog
 src/COVID-19/COVID-19.cslog
 *.csdb
+*.cslog
+*.csdb
