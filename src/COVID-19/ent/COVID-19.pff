@@ -1,0 +1,17 @@
+﻿[Run Information]
+Version=CSPro 7.5
+AppType=Entry
+
+[DataEntryInit]
+StartMode=Add
+Lock=Verify,Stats
+ShowInApplicationListing=Always
+
+[Files]
+Application=.\COVID-19.ent
+InputData=..\COVID-19.csdb
+Paradata=.\COVID-19.cslog
+
+[Parameters]
+Language=RO
+OnExit=..\menu\COVID-19-Menu.pff

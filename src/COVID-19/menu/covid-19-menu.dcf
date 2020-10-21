@@ -1,0 +1,41 @@
+﻿[Dictionary]
+Version=CSPro 7.5
+Label=covid-19-menu
+Name=COVID_19_MENU_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=B36356103C18E325EF161494AA8976E12FB500027B930F7ADD139B5BEB9A1168
+
+[Level]
+Label=covid-19-menu Level
+Name=COVID_19_MENU_LEVEL
+
+[IdItems]
+
+[Item]
+Label=covid-19-menu Identification
+Name=COVID_19_MENU_ID
+Start=2
+Len=1
+
+[Record]
+Label=covid-19-menu Record
+Name=COVID_19_MENU_REC
+RecordTypeValue='1'
+RecordLen=3
+
+[Item]
+Label=Options
+Name=OPTIONS
+Start=3
+Len=1
+
+[ValueSet]
+Label=Options
+Name=OPTIONS_VS1
+Value=1;Send data to server
+Value=2;Download data from the server
+Value=3;Add a new Covid Case
