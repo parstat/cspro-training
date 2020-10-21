@@ -1,0 +1,47 @@
+﻿Application     C:\Moldova\CAPI\Training7.4\github_parstat\cspro-training\src\COVID-19\tabulation\COVID-19-Tabulation.xtb
+Type            Tab
+Input Data      <<CSPro DB>> C:\Moldova\CAPI\Training7.4\downloded_data\data_20201021.csdb
+Output          C:\Moldova\CAPI\Training7.4\github_parstat\cspro-training\src\COVID-19\tabulation\data_20201021.csdb.tab
+
+Date            Oct 21, 2020
+Start Time      13:32:49
+End Time        13:32:49
+
+CSPro Process Summary
+
+      ╔══════════════════════════════════════════════════════╗
+      ║        20 Records Read   100% of input file          ║
+      ║         0 Ignored:       0 Unknown         0 Erased  ║
+      ║         0 Messages:      0 E      0 W      0 User    ║
+      ╠═════════╦══════════════╦══════════════╦══════════════╣
+      ║  Level  ║  Input Case  ║  Bad Struct  ║  Level Post  ║
+      ╠═════════╬══════════════╬══════════════╬══════════════╣
+      ║      1  ║           5  ║           0  ║           5  ║
+      ╚═════════╩══════════════╩══════════════╩══════════════╝
+
+Process Messages
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Moldova\CAPI\Training7.4\github_parstat\cspro-training\src\COVID-19\tabulation\COVID-19-Tabulation.xtb
+Type            Format
+Input Data      C:\Moldova\CAPI\Training7.4\github_parstat\cspro-training\src\COVID-19\tabulation\data_20201021.csdb.tab
+Output          C:\Moldova\CAPI\Training7.4\github_parstat\cspro-training\src\COVID-19\tabulation\COVID-19-Tabulation.xtb.tbw
+
+Date            Oct 21, 2020
+Start Time      13:32:49
+End Time        13:32:49
+
+CSPro Process Summary
+
+      ╔══════════════════════════════════════════════════════╗
+      ║         4 Slices Read   100% of input file           ║
+      ║         0 Ignored:       0 Unknown         0 Erased  ║
+      ╚══════════════════════════════════════════════════════╝
+
+Process Messages
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------

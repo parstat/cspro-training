@@ -5,7 +5,6 @@ AppType=Entry
 [DataEntryInit]
 StartMode=Add
 Lock=Verify,Stats
-ShowInApplicationListing=Always
 
 [Files]
 Application=.\COVID-19.ent

@@ -1,0 +1,15 @@
+﻿[CSPro Application]
+Version=CSPro 7.5
+Label=COVID_19_TABULATION
+Name=COVID_19_TABULATION
+AppType=Tabulation
+[External Dictionaries]
+File=.\COVID-19-Tabulation.xtb.wrk.dcf
+[AppCode]
+File=.\COVID-19-Tabulation.xtb.apc
+[Message]
+File=.\COVID-19-Tabulation.xtb.mgf
+[TabSpecs]
+File=.\COVID-19-Tabulation.xts
+[Dictionary Types]
+Dict-Type=.\COVID-19-Tabulation.xtb.wrk.dcf,Working

@@ -1,0 +1,17 @@
+﻿[Run Information]
+Version=CSPro 7.5
+AppType=Batch
+
+[Files]
+Application=.\COVID-19-BATCH.bch
+InputData=..\..\..\..\..\downloded_data\data_20201021.csdb
+OutputData=|type=None
+Listing=.\COVID-19-BATCH.lst
+
+[Parameters]
+ViewListing=Always
+ViewResults=Yes
+ListingWidth=120
+MessageWrap=No
+ErrmsgOverride=No
+InputOrder=Sequential

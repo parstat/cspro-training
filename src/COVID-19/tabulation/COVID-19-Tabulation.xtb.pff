@@ -1,0 +1,15 @@
+﻿[Run Information]
+Version=CSPro 7.5
+AppType=Tabulation
+Operation=All
+
+[Files]
+Application=.\COVID-19-Tabulation.xtb
+InputData=..\..\..\..\..\downloded_data\data_20201021.csdb
+OutputTBW=.\COVID-19-Tabulation.xtb.tbw
+Listing=.\COVID-19-Tabulation.xtb.lst
+
+[Parameters]
+ViewListing=OnError
+ViewResults=No
+InputOrder=Sequential

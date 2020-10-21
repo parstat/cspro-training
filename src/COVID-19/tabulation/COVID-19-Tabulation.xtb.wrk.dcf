@@ -1,0 +1,34 @@
+﻿[Dictionary]
+Version=CSPro 7.5
+Label=COVID-19-Tabulation - Working Storage Dictionary
+Name=WS_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=3ECC60F56C442DE7547B22E511BD2CE9BC5C955E888B4943713B141063A4C8CD
+
+[Level]
+Label=Working Storage Level
+Name=WS_LEVEL
+
+[IdItems]
+
+[Item]
+Label=Dummy Id
+Name=DUMMY_ID
+Start=2
+Len=1
+
+[Record]
+Label=Working Storage Record
+Name=WS_REC
+RecordTypeValue='1'
+RecordLen=1
+
+[Item]
+Label=System Total
+Name=SYSTEM_TOTAL
+Start=3
+Len=1

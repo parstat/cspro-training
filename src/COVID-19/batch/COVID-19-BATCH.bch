@@ -1,0 +1,13 @@
+﻿[CSPro Application]
+Version=CSPro 7.5
+Label=COVID_19_BATCH
+Name=COVID_19_BATCH
+AppType=Batch
+[AppCode]
+File=.\COVID-19-BATCH.bch.apc
+[Message]
+File=.\COVID-19-BATCH.bch.mgf
+[Order]
+File=.\COVID-19-BATCH.ord
+[Dictionary Types]
+Dict-Type=..\ent\covid-19.dcf,Input,.\COVID-19-BATCH.ord
