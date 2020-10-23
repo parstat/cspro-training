@@ -3,6 +3,13 @@ PROC GLOBAL
 
 PROC COVID_19_FF
 
+PROC DATE_OF_FIRST_SYMPTOM
+
+if($ <  20191201 | $ > 20210101 ) 
+
+then
+	errmsg("This is not the questionnaire period");
+endif;
 PROC DIARRHOEA
 if($ = 0
 	& NAUSEA = 0
@@ -17,13 +24,61 @@ if($ = 0
 	errmsg("Patient had symptomps but none selected");
 endif;
 	
+if(
+(
+    $ = 9
+	& NAUSEA = 9	
+	& VOMITING = 9
+	& SHORTNESS_OF_BREATH = 9
+	& COUGH = 9
+	& RUNNY_NOSE = 9
+	& SORE_THROAT = 9
+	& FEVER = 9
+)	
+	
+	& PATIENT_HAD_SYMPTOMS = 1) then
+	
+	errmsg("Patient had symptomps but selected only - Unknown");
+endif;
+PROC HOSPITALIZATION_REQUIRED
+
+if($ = 1 & PATIENT_HAD_SYMPTOMS = 0) then
+	errmsg("Required hospitalization when patient not had symptoms.");
+endif;
+PROC NAME_OF_THE_HOSPITAL
+
+if($ = "" & HOSPITALIZATION_REQUIRED = 1) then
+	errmsg("hospital without name  in 2020 Year ?");
+endif;
 PROC ICU_INTENSIVE_CARE_UNIT_ADMISSION_REQUIRED
 if($ = 1 & HOSPITALIZATION_REQUIRED = 0) then
 	errmsg("Admission to intensive care without hospatilization");
 endif;
+PROC ACUTE_RESPIRATORY_DISTRESS_SYNDROME_ARDS
+
+if($ = 1 & HOSPITALIZATION_REQUIRED = 0) then
+	errmsg("Admission to Acute respiratory distress syndrome (ARDS) without hospatilization");
+endif;
+PROC PNEUMONIA_BY_CHEST_X_RAY
+
+PROC X_RAY_DATE
+
+
+PROC OTHER_INFECTIONS
+
+if($ = 1 & HOSPITALIZATION_REQUIRED = 0) then
+	errmsg("Admission to Other severe or life-threatening illness suggestive of an infection without hospatilization");
+endif;
 PROC MECHANICAL_VENTILATION_REQUIRED
+
 if($ = 1 & HOSPITALIZATION_REQUIRED = 0) then
 	errmsg("Mechanical ventilation without hospatilization");
+endif;
+
+
+if($ = 0 & ACUTE_RESPIRATORY_DISTRESS_SYNDROME_ARDS = 1) then
+	errmsg("Mechanical ventilation is obligatory");
+	//Acute respiratory distress syndrome is usually treated with mechanical ventilation in the intensive care unit (ICU). 
 endif;
 PROC EMO
 if($ = 1 & HOSPITALIZATION_REQUIRED = 0) then
