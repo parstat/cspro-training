@@ -30,7 +30,7 @@ ZeroFill=Yes
 Label=Patient Information|Informația despre pacient
 Name=PATIENT_INFO
 RecordTypeValue='1'
-RecordLen=98
+RecordLen=118
 
 [Item]
 Label=Name|Nume
@@ -84,13 +84,13 @@ DataType=Alpha
 Label=Email
 Name=EMAIL
 Start=66
-Len=30
+Len=50
 DataType=Alpha
 
 [Item]
 Label=Country of Residence|Țara de resedință
 Name=RESIDENCE
-Start=96
+Start=116
 Len=1
 
 [ValueSet]
@@ -107,7 +107,7 @@ Name=MISSING,Special
 [Item]
 Label=COVID Case Status|Starea cazului COVID
 Name=COVID_STATUS
-Start=97
+Start=117
 Len=1
 
 [ValueSet]
@@ -120,7 +120,7 @@ Value=3;Confirmed|Confirmat
 [Item]
 Label=Current Status|Statusul curent
 Name=CURRENT_STATUS
-Start=98
+Start=118
 Len=1
 
 [ValueSet]
