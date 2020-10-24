@@ -3,13 +3,20 @@ PROC GLOBAL
 
 PROC COVID_19_FF
 
-PROC DATE_OF_FIRST_SYMPTOM
 
-if($ <  20191201 | $ > 20210101 ) 
-
-then
-	errmsg("This is not the questionnaire period");
+{
+// This rule is not necessary, because we flag in value set of Date of first symptom
+//From 20191201 To 20210101
+//PROC DATE_OF_FIRST_SYMPTOM
+if($ <  20191201) then
+	errmsg("DATE_OF_FIRST_SYMPTOM before the first case appeared in the country");
+elseif($ > 20210101) 
+  then    errmsg("DATE_OF_FIRST_SYMPTOM is in the future");
 endif;
+}
+
+
+
 PROC DIARRHOEA
 if($ = 0
 	& NAUSEA = 0
@@ -25,20 +32,21 @@ if($ = 0
 endif;
 	
 if(
-(
-    $ = 9
-	& NAUSEA = 9	
-	& VOMITING = 9
-	& SHORTNESS_OF_BREATH = 9
-	& COUGH = 9
-	& RUNNY_NOSE = 9
-	& SORE_THROAT = 9
-	& FEVER = 9
-)	
+
+    $ = missing
+	& NAUSEA = missing	
+	& VOMITING = missing
+	& SHORTNESS_OF_BREATH = missing
+	& COUGH = missing
+	& RUNNY_NOSE = missing
+	& SORE_THROAT = missing
+	& FEVER = missing
+	
 	
 	& PATIENT_HAD_SYMPTOMS = 1) then
 	
 	errmsg("Patient had symptomps but selected only - Unknown");
+	
 endif;
 PROC HOSPITALIZATION_REQUIRED
 

@@ -4,8 +4,8 @@ AppType=Batch
 
 [Files]
 Application=.\COVID-19-BATCH.bch
-InputData=..\..\..\..\..\downloded_data\data_20201021.csdb
-OutputData=|type=None
+InputData=..\COVID-19.csdb
+OutputData=..\output_COVID-19.csdb
 Listing=.\COVID-19-BATCH.lst
 
 [Parameters]
