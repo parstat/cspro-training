@@ -11,13 +11,67 @@ function numeric uploadParadata()
 	endif;
 end;
 
+function getgps() 
+    gps(open);
+    if gps(read, 60) then
+		LATITUDE = gps(latitude);
+		LONGITUDE = gps(longitude);
+    else
+		errmsg("gps not working");
+    endif;
+    gps(close);
+end;
+
+function mapClicked(map myMap)
+    myMap.clearMarkers();
+    LAT = mymap.getLastClickLatitude();
+    LONG = mymap.getLastClickLongitude();
+    myMap.addMarker(mymap.getLastClickLatitude(), mymap.getLastClickLongitude());
+end;
+
+function closeMap(map myMap)
+    myMap.hide();
+end;
+
+function getMap()
+    map gmap;
+    gmap.setBaseMap(satellite);
+    gmap.setOnClick(mapClicked(gmap));
+    gmap.addTextButton("Close map", closeMap(gmap));
+    gmap.show();
+end;
+
+alpha photoDir = "./pictures";
+
+//function to take photo with android //device
+function string takePhoto(string picture_name, string suffix)
+   //check if directory for saving pictures exists
+   
+   if(!direxist(photoDir)) then
+		dircreate(photoDir);
+   endif;
+   string picture_path = concat(strip(photoDir), "/", strip(picture_name), strip(suffix)); 
+   if(fileexist(picture_path)) then
+       filedelete(picture_path);
+   endif;
+   execsystem(concat("camera:", pathconcat(Application, picture_path)));
+   takePhoto = picture_path;
+end;
+
+
 PROC COVID_19_FF
 
 PROC COVID_19_ID
 preproc
+PROC LAT
+preproc
+getMap();
 PROC NAME
-postproc
 
+preproc
+getgps();
+
+postproc
 if($ = "") then
  if(getlanguage() = "EN") then 
 	errmsg("Name can not be emtpy");
@@ -27,10 +81,9 @@ if($ = "") then
 	reenter;
 endif;
 
-
-
-
-
+PROC SURNAME
+postproc
+PICTURE = takePhoto(edit("999",COVID_19_ID), ".jpg");
 PROC GENDER
 postproc
 
@@ -112,4 +165,4 @@ ask if OTHER_INFECTIONS = 1 //Yes
 
 PROC EMO
 postproc
-uploadParadata();
+//uploadParadata();

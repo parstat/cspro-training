@@ -28,5 +28,5 @@ File=.\COVID-19.fmf
 [Dictionary Types]
 Dict-Type=.\covid-19.dcf,Input,.\COVID-19.fmf
 [Sync]
-Server=http://192.168.1.4:8099/csweb/api
+Server=http://192.168.1.6:8099/csweb/api
 Direction=Both

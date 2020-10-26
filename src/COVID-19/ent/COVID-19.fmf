@@ -13,9 +13,11 @@ File=.\covid-19.dcf
 Name=FORM000
 Label=(Id Items)
 Level=1
-Size=1468,300
+Size=379,221
   
 Item=COVID_19_ID
+Item=LAT
+Item=LONG
   
 [EndForm]
   
@@ -23,7 +25,7 @@ Item=COVID_19_ID
 Name=FORM001
 Label=Patient Information
 Level=1
-Size=1468,330
+Size=973,342
   
 Item=NAME
 Item=SURNAME
@@ -108,6 +110,32 @@ Form=1
 [Text]
 Position=50,30,63,46
 Text=ID
+ 
+  
+[Field]
+Name=LAT
+Position=168,132,323,152
+Item=LAT,COVID_19_DICT
+UseEnterKey=Yes
+FieldLabelType=DictionaryLabel
+Form=1
+  
+[Text]
+Position=21,135,120,151
+Text=Latitude in Map
+ 
+  
+[Field]
+Name=LONG
+Position=185,176,354,196
+Item=LONG,COVID_19_DICT
+UseEnterKey=Yes
+FieldLabelType=DictionaryLabel
+Form=1
+  
+[Text]
+Position=24,179,135,195
+Text=Longitude in Map
  
 [EndGroup]
   

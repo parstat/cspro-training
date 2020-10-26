@@ -30,26 +30,56 @@ ZeroFill=Yes
 Label=Patient Information|Informația despre pacient
 Name=PATIENT_INFO
 RecordTypeValue='1'
-RecordLen=118
+RecordLen=202
+
+[Item]
+Label=Latitude
+Name=LATITUDE
+Start=5
+Len=11
+Decimal=6
+DecimalChar=Yes
+
+[Item]
+Label=Longitude
+Name=LONGITUDE
+Start=16
+Len=11
+Decimal=6
+
+[Item]
+Label=Latitude in Map
+Name=LAT
+Start=27
+Len=11
+Decimal=6
+DecimalChar=Yes
+
+[Item]
+Label=Longitude in Map
+Name=LONG
+Start=38
+Len=11
+Decimal=6
 
 [Item]
 Label=Name|Nume
 Name=NAME
-Start=5
+Start=49
 Len=20
 DataType=Alpha
 
 [Item]
 Label=Surname|Prenume
 Name=SURNAME
-Start=25
+Start=69
 Len=20
 DataType=Alpha
 
 [Item]
 Label=Gender|Gen
 Name=GENDER
-Start=45
+Start=89
 Len=1
 
 [ValueSet]
@@ -61,9 +91,16 @@ Value=9;Unknown|Necunoscut
 Name=MISSING,Special
 
 [Item]
+Label=Picture
+Name=PICTURE
+Start=90
+Len=40
+DataType=Alpha
+
+[Item]
 Label=Date of birth|Data nașterii
 Name=DATE_OF_BIRTH
-Start=46
+Start=130
 Len=8
 
 [ValueSet]
@@ -76,21 +113,21 @@ Name=MISSING,Special
 [Item]
 Label=Phone Number|Număr de telefon
 Name=PHONE_NUMBER
-Start=54
+Start=138
 Len=12
 DataType=Alpha
 
 [Item]
 Label=Email
 Name=EMAIL
-Start=66
+Start=150
 Len=50
 DataType=Alpha
 
 [Item]
 Label=Country of Residence|Țara de resedință
 Name=RESIDENCE
-Start=116
+Start=200
 Len=1
 
 [ValueSet]
@@ -107,7 +144,7 @@ Name=MISSING,Special
 [Item]
 Label=COVID Case Status|Starea cazului COVID
 Name=COVID_STATUS
-Start=117
+Start=201
 Len=1
 
 [ValueSet]
@@ -120,7 +157,7 @@ Value=3;Confirmed|Confirmat
 [Item]
 Label=Current Status|Statusul curent
 Name=CURRENT_STATUS
-Start=118
+Start=202
 Len=1
 
 [ValueSet]
