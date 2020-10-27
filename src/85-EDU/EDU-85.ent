@@ -1,0 +1,15 @@
+﻿[CSPro Application]
+Version=CSPro 7.5
+Label=EDU_85
+Name=EDU_85
+AppType=DataEntry
+[AppCode]
+File=.\EDU-85.ent.apc
+[Message]
+File=.\EDU-85.ent.mgf
+[Help]
+File=.\EDU-85.ent.qsf
+[Forms]
+File=.\EDU-85.fmf
+[Dictionary Types]
+Dict-Type=.\edu-85.dcf,Input,.\EDU-85.fmf

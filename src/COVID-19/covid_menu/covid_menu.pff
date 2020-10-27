@@ -1,0 +1,11 @@
+﻿[Run Information]
+Version=CSPro 7.5
+AppType=Entry
+
+[Files]
+Application=.\covid_menu.ent
+InputData=.\menu.csdb
+Paradata=.\covid_menu.cslog
+
+[ExternalFiles]
+USERS_DICT=.\users.csdb

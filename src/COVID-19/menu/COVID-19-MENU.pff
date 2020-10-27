@@ -4,7 +4,7 @@ AppType=Entry
 
 [DataEntryInit]
 StartMode=Add
-Lock=Modify,Verify,Stats,CaseListing,Delete,Add
+Lock=Add,Modify,Delete,Verify,Stats,CaseListing
 
 [Files]
 Application=.\COVID-19-MENU.ent

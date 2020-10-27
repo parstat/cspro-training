@@ -1,0 +1,30 @@
+﻿[CSPro Application]
+Version=CSPro 7.5
+Label=COVID_MENU
+Name=COVID_MENU
+AppType=DataEntry
+OperatorID=No
+CAPI=Yes
+CAPIFont1=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont2=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont1Color=0
+CAPIFont2Color=16711680
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ComboBoxShowOnlyDiscreteValues=Yes
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
+[External Dictionaries]
+File=.\users.dcf
+[AppCode]
+File=.\covid_menu.ent.apc
+[Message]
+File=.\covid_menu.ent.mgf
+[Help]
+File=.\covid_menu.ent.qsf
+[Forms]
+File=.\covid_menu.fmf
+[Dictionary Types]
+Dict-Type=.\covid_menu.dcf,Input,.\covid_menu.fmf
+Dict-Type=.\users.dcf,External

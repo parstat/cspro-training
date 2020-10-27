@@ -1,0 +1,149 @@
+﻿[Dictionary]
+Version=CSPro 7.5
+Label=edu-85
+Name=EDU_85_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=2A89079C1831A76117C2CC1ADAA33963F0906DF970FC10446198754849C7C998
+
+[Level]
+Label=edu-85 Level
+Name=EDU_85_LEVEL
+
+[IdItems]
+
+[Item]
+Label=edu-85 Identification
+Name=EDU_85_ID
+Start=2
+Len=1
+
+[Record]
+Label=I. Groups and places at the end of the reporting year
+Name=EDU_85_PLACES
+RecordTypeValue='1'
+MaxRecords=6
+RecordLen=83
+OccurrenceLabel=1,010 Total (rind.020-040)
+OccurrenceLabel=2,    020 nursery (0 -2years)
+OccurrenceLabel=3,    030 mixed
+OccurrenceLabel=4,    040 preschool (5 - 7year
+OccurrenceLabel=5,    050 From 010 With duration of 24h
+OccurrenceLabel=6,    060 With duration from 2 to 6h
+
+[Item]
+Label=Functional groups, units
+Name=I1
+Start=3
+Len=3
+
+[Item]
+Label=Places in the preschool institution
+Name=I2
+Start=6
+Len=3
+
+[Item]
+Label=Functional groups by Senatorial profile
+Name=I3
+Start=9
+Len=3
+
+[Item]
+Label=Profiles of functional groups
+Name=I4
+Start=12
+Len=6
+DataType=Alpha
+
+[ValueSet]
+Label=Profiles of functional groups
+Name=I4_VS1
+Value='1     ';Hearing disturbances
+Value='2     ';Speech disorders
+Value='3     ';Vision disorders
+Value='4     ';Intellectual deficiencies
+Value='5     ';Psychomotor deficiencies
+Value='6     ';Other profiles
+
+[Item]
+Label=Profiles of functional groups other
+Name=I4_OTHER
+Start=18
+Len=30
+DataType=Alpha
+
+[Item]
+Label=Number of grups with hearing disturbances
+Name=I4_1_NUMBER
+Start=48
+Len=3
+
+[Item]
+Label=Number of grups with speech disorders
+Name=I4_2_NUMBER
+Start=51
+Len=3
+
+[Item]
+Label=Number of grups with visual disorders
+Name=I4_3_NUMBER
+Start=54
+Len=3
+
+[Item]
+Label=Number of grups with Intellectual deficiencies
+Name=I4_4_NUMBER
+Start=57
+Len=3
+
+[Item]
+Label=Number of grups with psychomotor deficiencies
+Name=I4_5_NUMBER
+Start=60
+Len=3
+
+[Item]
+Label=Number of grups with other profile
+Name=I4_6_NUMBER
+Start=63
+Len=3
+
+[Item]
+Label=Functional group of Romanian language
+Name=I5
+Start=66
+Len=3
+
+[Item]
+Label=Functional group of Russian language
+Name=I6
+Start=69
+Len=3
+
+[Item]
+Label=Functional group of Ucrainian langauge
+Name=I7
+Start=72
+Len=3
+
+[Item]
+Label=Functional group of Bulgarian language
+Name=I8
+Start=75
+Len=3
+
+[Item]
+Label=Functional group of hebrew language
+Name=I9
+Start=78
+Len=3
+
+[Item]
+Label=Functional group of other languages
+Name=I10
+Start=81
+Len=3

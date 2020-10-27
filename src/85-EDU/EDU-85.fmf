@@ -1,0 +1,476 @@
+﻿[FormFile]
+Version=CSPro 7.5
+Name=EDU_85_FF
+Label=EDU-85
+DefaultTextFont=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+FieldEntryFont=0018 0000 0000 0000 0600 0000 0000 0000 0000 0000 0000 0000 0000 Courier New
+Type=OperatorControlled
+  
+[Dictionaries]
+File=.\edu-85.dcf
+  
+[Form]
+Name=FORM000
+Label=(Id Items)
+Level=1
+Size=1468,300
+  
+Item=EDU_85_ID
+  
+[EndForm]
+  
+[Form]
+Name=FORM001
+Label=I. Groups and places at the end of the reporting year
+Level=1
+Size=300,300
+  
+Item=EDU_85_PLACES000
+  
+[EndForm]
+  
+[Level]
+Name=EDU_85_LEVEL
+Label=edu-85 Level
+  
+[Group]
+Required=Yes
+Name=IDS0_FORM
+Label=(Id Items)
+Form=1
+LogicControl=No
+Max=1
+  
+[Field]
+Name=EDU_85_ID
+Position=201,27,216,47
+Item=EDU_85_ID,EDU_85_DICT
+UseEnterKey=Yes
+FieldLabelType=DictionaryLabel
+Form=1
+  
+[Text]
+Position=50,30,179,46
+Text=edu-85 Identification
+ 
+[EndGroup]
+  
+[Group]
+Required=Yes
+Name=EDU_85_PLACES_FORM
+Label=I. Groups and places at the end of the reporting year
+Form=2
+LogicControl=No
+Max=1
+  
+[Grid]
+Name=EDU_85_PLACES000
+Label=I. Groups and places at the end of the reporting year
+Form=2
+Required=Yes
+Type=Record
+TypeName=EDU_85_PLACES
+Max=6
+DisplaySize=40,30,1290,452
+Orientation=Horizontal
+FieldRowHeight=0
+HeadingRowHeight=0
+UseOccurrenceLabels=Yes
+FreeMovement=No
+ 
+[Text]
+Position=0,0,143,40
+Text=010 Total (rind.020-040)
+HorizontalAlignment=Left
+ 
+  
+[Text]
+Position=0,0,143,56
+Text=    020 nursery (0 -2years)
+HorizontalAlignment=Left
+ 
+  
+[Text]
+Position=0,4,143,28
+Text=    030 mixed
+HorizontalAlignment=Left
+ 
+  
+[Text]
+Position=0,0,143,56
+Text=    040 preschool (5 - 7year
+HorizontalAlignment=Left
+ 
+  
+[Text]
+Position=0,0,143,72
+Text=    050 From 010 With duration of 24h
+HorizontalAlignment=Left
+ 
+  
+[Text]
+Position=0,0,143,56
+Text=    060 With duration from 2 to 6h
+HorizontalAlignment=Left
+ 
+  
+[Column]
+Width=10
+[EndColumn]
+  
+[Column]
+Width=75
+  
+[HeaderText]
+Position=0,32,75,88
+Text=Functional groups, units
+HorizontalAlignment=Left
+ 
+[Field]
+Name=I1
+Position=24,0,67,20
+Item=I1,EDU_85_DICT
+UseEnterKey=Yes
+FieldLabelType=DictionaryLabel
+  
+[Text]
+Position=0,32,75,88
+Text=Functional groups, units
+HorizontalAlignment=Left
+ 
+[EndColumn]
+  
+[Column]
+Width=74
+  
+[HeaderText]
+Position=0,16,74,88
+Text=Places in the preschool institution
+HorizontalAlignment=Left
+ 
+[Field]
+Name=I2
+Position=23,0,66,20
+Item=I2,EDU_85_DICT
+UseEnterKey=Yes
+FieldLabelType=DictionaryLabel
+  
+[Text]
+Text=Places in the preschool institution
+ 
+[EndColumn]
+  
+[Column]
+Width=79
+  
+[HeaderText]
+Position=0,16,79,88
+Text=Functional groups by Senatorial profile
+HorizontalAlignment=Left
+ 
+[Field]
+Name=I3
+Position=28,0,71,20
+Item=I3,EDU_85_DICT
+UseEnterKey=Yes
+FieldLabelType=DictionaryLabel
+  
+[Text]
+Text=Functional groups by Senatorial profile
+ 
+[EndColumn]
+  
+[Column]
+Width=93
+  
+[HeaderText]
+Position=0,16,71,88
+Text=Profiles of functional groups
+HorizontalAlignment=Left
+ 
+[Field]
+Name=I4
+Position=0,0,85,20
+Item=I4,EDU_85_DICT
+UseEnterKey=Yes
+FieldLabelType=DictionaryLabel
+DataCaptureType=CheckBox
+  
+[Text]
+Text=Profiles of functional groups
+ 
+[EndColumn]
+  
+[Column]
+Width=429
+  
+[HeaderText]
+Position=0,0,71,88
+Text=Profiles of functional groups other
+HorizontalAlignment=Left
+ 
+[Field]
+Name=I4_OTHER
+Position=0,0,421,20
+Item=I4_OTHER,EDU_85_DICT
+UseEnterKey=Yes
+FieldLabelType=DictionaryLabel
+UseUnicodeTextBox=Yes
+  
+[Text]
+Text=Profiles of functional groups other
+ 
+[EndColumn]
+  
+[Column]
+Width=92
+  
+[HeaderText]
+Position=0,16,88,88
+Text=Number of grups with hearing disturbances
+HorizontalAlignment=Left
+ 
+[Field]
+Name=I4_1_NUMBER
+Position=41,0,84,20
+Item=I4_1_NUMBER,EDU_85_DICT
+UseEnterKey=Yes
+FieldLabelType=DictionaryLabel
+  
+[Text]
+Text=Number of grups with hearing disturbances
+ 
+[EndColumn]
+  
+[Column]
+Width=70
+  
+[HeaderText]
+Position=0,0,66,88
+Text=Number of grups with speech disorders
+HorizontalAlignment=Left
+ 
+[Field]
+Name=I4_2_NUMBER
+Position=19,0,62,20
+Item=I4_2_NUMBER,EDU_85_DICT
+UseEnterKey=Yes
+FieldLabelType=DictionaryLabel
+  
+[Text]
+Text=Number of grups with speech disorders
+ 
+[EndColumn]
+  
+[Column]
+Width=66
+  
+[HeaderText]
+Position=0,0,66,88
+Text=Number of grups with visual disorders
+HorizontalAlignment=Left
+ 
+[Field]
+Name=I4_3_NUMBER
+Position=15,0,58,20
+Item=I4_3_NUMBER,EDU_85_DICT
+UseEnterKey=Yes
+FieldLabelType=DictionaryLabel
+  
+[Text]
+Text=Number of grups with visual disorders
+ 
+[EndColumn]
+  
+[Column]
+Width=88
+  
+[HeaderText]
+Position=0,16,84,88
+Text=Number of grups with Intellectual deficiencies
+HorizontalAlignment=Left
+ 
+[Field]
+Name=I4_4_NUMBER
+Position=37,0,80,20
+Item=I4_4_NUMBER,EDU_85_DICT
+UseEnterKey=Yes
+FieldLabelType=DictionaryLabel
+  
+[Text]
+Text=Number of grups with Intellectual deficiencies
+ 
+[EndColumn]
+  
+[Column]
+Width=93
+  
+[HeaderText]
+Position=0,16,93,88
+Text=Number of grups with psychomotor deficiencies
+HorizontalAlignment=Left
+ 
+[Field]
+Name=I4_5_NUMBER
+Position=42,0,85,20
+Item=I4_5_NUMBER,EDU_85_DICT
+UseEnterKey=Yes
+FieldLabelType=DictionaryLabel
+  
+[Text]
+Text=Number of grups with psychomotor deficiencies
+ 
+[EndColumn]
+  
+[Column]
+Width=63
+  
+[HeaderText]
+Position=0,0,63,88
+Text=Number of grups with other profile
+HorizontalAlignment=Left
+ 
+[Field]
+Name=I4_6_NUMBER
+Position=12,0,55,20
+Item=I4_6_NUMBER,EDU_85_DICT
+UseEnterKey=Yes
+FieldLabelType=DictionaryLabel
+  
+[Text]
+Text=Number of grups with other profile
+ 
+[EndColumn]
+  
+[Column]
+Width=75
+  
+[HeaderText]
+Position=0,16,75,88
+Text=Functional group of Romanian language
+HorizontalAlignment=Left
+ 
+[Field]
+Name=I5
+Position=24,0,67,20
+Item=I5,EDU_85_DICT
+UseEnterKey=Yes
+FieldLabelType=DictionaryLabel
+  
+[Text]
+Text=Functional group of Romanian language
+ 
+[EndColumn]
+  
+[Column]
+Width=75
+  
+[HeaderText]
+Position=0,16,75,88
+Text=Functional group of Russian language
+HorizontalAlignment=Left
+ 
+[Field]
+Name=I6
+Position=24,0,67,20
+Item=I6,EDU_85_DICT
+UseEnterKey=Yes
+FieldLabelType=DictionaryLabel
+  
+[Text]
+Text=Functional group of Russian language
+ 
+[EndColumn]
+  
+[Column]
+Width=75
+  
+[HeaderText]
+Position=0,16,75,88
+Text=Functional group of Ucrainian langauge
+HorizontalAlignment=Left
+ 
+[Field]
+Name=I7
+Position=24,0,67,20
+Item=I7,EDU_85_DICT
+UseEnterKey=Yes
+FieldLabelType=DictionaryLabel
+  
+[Text]
+Text=Functional group of Ucrainian langauge
+ 
+[EndColumn]
+  
+[Column]
+Width=75
+  
+[HeaderText]
+Position=0,16,75,88
+Text=Functional group of Bulgarian language
+HorizontalAlignment=Left
+ 
+[Field]
+Name=I8
+Position=24,0,67,20
+Item=I8,EDU_85_DICT
+UseEnterKey=Yes
+FieldLabelType=DictionaryLabel
+  
+[Text]
+Text=Functional group of Bulgarian language
+ 
+[EndColumn]
+  
+[Column]
+Width=75
+  
+[HeaderText]
+Position=0,16,75,88
+Text=Functional group of hebrew language
+HorizontalAlignment=Left
+ 
+[Field]
+Name=I9
+Position=24,0,67,20
+Item=I9,EDU_85_DICT
+UseEnterKey=Yes
+FieldLabelType=DictionaryLabel
+  
+[Text]
+Text=Functional group of hebrew language
+ 
+[EndColumn]
+  
+[Column]
+Width=75
+  
+[HeaderText]
+Position=0,32,75,88
+Text=Functional groups, units
+HorizontalAlignment=Left
+ 
+[Field]
+Name=I10
+Position=24,0,67,20
+Item=I10,EDU_85_DICT
+UseEnterKey=Yes
+  
+[Text]
+Position=0,32,75,88
+Text=Functional groups, units
+HorizontalAlignment=Left
+ 
+[EndColumn]
+  
+[Block]
+Name=BLOCK000
+Label=New Block
+DisplayTogether=Yes
+Position=3
+Length=2
+  
+[EndGrid]
+ 
+[EndGroup]
+  

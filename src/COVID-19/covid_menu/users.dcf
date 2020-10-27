@@ -1,0 +1,50 @@
+﻿[Dictionary]
+Version=CSPro 7.5
+Label=Users Dictionary
+Name=USERS_DICT
+RecordTypeStart=0
+RecordTypeLen=0
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+SecurityOptions=083368F53AE2E9847DD9A41038DA78FB3713ACC0BAD7D0BCD70832D2E8AD14A3
+
+[Level]
+Label=Users Level
+Name=USERS_LEVEL
+
+[IdItems]
+
+[Item]
+Label=User Id
+Name=USER_ID
+Start=1
+Len=1
+ZeroFill=Yes
+
+[Record]
+Label=Users Record
+Name=USERS_REC
+RecordTypeValue=''
+RecordLen=10
+
+[Item]
+Label=User Pin
+Name=USER_PIN
+Start=2
+Len=4
+ZeroFill=Yes
+
+[Item]
+Label=User
+Name=USER
+Start=6
+Len=4
+DataType=Alpha
+
+[Item]
+Label=Role
+Name=ROLE
+Start=10
+Len=1
+ZeroFill=Yes

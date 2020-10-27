@@ -1,0 +1,26 @@
+﻿Application     C:\Moldova\CAPI\Training7.4\github_parstat\cspro-training\src\85-EDU\EDU-85.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Moldova\CAPI\Training7.4\github_parstat\cspro-training\src\85-EDU\85-edu.csdb
+
+Date            Oct 27, 2020
+Start Time      12:13:35
+End Time        12:17:34
+
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+   88889           1         WARNING: Out of range! Please enter a valid value for %s%s                                 
+   99990           1         Operator entered a value out of range                                                      
+
+User unnumbered messages:
+
+    Line        Freq    %    Message Text                                                                          Denom
+    ----        ----  -----  ------------                                                                          -----
+       7           1      -  can not be greater then total                                                             -
+      12           1      -  sum can not be greater then total                                                         -
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------

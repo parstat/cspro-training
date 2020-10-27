@@ -1,0 +1,54 @@
+﻿[Dictionary]
+Version=CSPro 7.5
+Label=covid_menu
+Name=COVID_MENU_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=C7F732DC8AB904C8098B0A2BC1FB8AF50BEB8A8CA55F0ACEC589B498E1995B35
+
+[Level]
+Label=covid_menu Level
+Name=COVID_MENU_LEVEL
+
+[IdItems]
+
+[Item]
+Label=User ID
+Name=ID
+Start=2
+Len=1
+ZeroFill=Yes
+
+[Record]
+Label=covid_menu Record
+Name=COVID_MENU_REC
+RecordTypeValue='1'
+RecordLen=7
+
+[Item]
+Label=PIN
+Name=PIN
+Start=3
+Len=4
+
+[Item]
+Label=Options
+Name=OPTIONS
+Start=7
+Len=1
+
+[ValueSet]
+Label=Options
+Name=OPTIONS_INTERVIWER
+Value=1;Send data
+Value=3;Add a new Case
+
+[ValueSet]
+Label=Supervizor menu
+Name=OPTIONS_SUPERVIZOR
+Value=1;Send data
+Value=2;Receive data
+Value=3;Add a new Case

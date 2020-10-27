@@ -1,0 +1,7 @@
+﻿[Run Information]
+Version=CSPro 7.5
+AppType=Entry
+
+[Files]
+Application=.\EDU-85.ent
+InputData=.\85-edu.csdb
