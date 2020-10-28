@@ -26,7 +26,7 @@ ZeroFill=Yes
 Label=Users Record
 Name=USERS_REC
 RecordTypeValue=''
-RecordLen=10
+RecordLen=12
 
 [Item]
 Label=User Pin
@@ -46,5 +46,26 @@ DataType=Alpha
 Label=Role
 Name=ROLE
 Start=10
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=Status
+Name=STATUS
+Start=11
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=Status
+Name=STATUS_VS1
+Value=1;Active
+Value=2;Locked
+Value=3;Terminated
+
+[Item]
+Label=Failed login
+Name=FAILED_LOGIN
+Start=12
 Len=1
 ZeroFill=Yes

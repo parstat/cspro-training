@@ -12,5 +12,5 @@ InputData=..\COVID-19.csdb
 Paradata=.\COVID-19.cslog
 
 [Parameters]
-Language=RO
-OnExit=..\menu\COVID-19-Menu.pff
+Language=EN
+OnExit=..\covid_menu\covid_menu.pff

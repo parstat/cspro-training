@@ -2,10 +2,15 @@
 Version=CSPro 7.5
 AppType=Entry
 
+[DataEntryInit]
+StartMode=Add
+Lock=Add,Modify,Delete,Verify,Stats,CaseListing
+
 [Files]
 Application=.\covid_menu.ent
 InputData=.\menu.csdb
 Paradata=.\covid_menu.cslog
 
 [ExternalFiles]
+COVID_19_DICT=..\COVID-19.csdb
 USERS_DICT=.\users.csdb

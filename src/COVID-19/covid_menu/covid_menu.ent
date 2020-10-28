@@ -17,6 +17,7 @@ ParadataCollection=AllEvents
 ParadataDeviceStateMinutes=5
 [External Dictionaries]
 File=.\users.dcf
+File=..\ent\covid-19.dcf
 [AppCode]
 File=.\covid_menu.ent.apc
 [Message]
@@ -28,3 +29,4 @@ File=.\covid_menu.fmf
 [Dictionary Types]
 Dict-Type=.\covid_menu.dcf,Input,.\covid_menu.fmf
 Dict-Type=.\users.dcf,External
+Dict-Type=..\ent\covid-19.dcf,External

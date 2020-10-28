@@ -10,23 +10,14 @@ Type=SystemControlled
 File=.\covid_menu.dcf
   
 [Form]
-Name=FORM000
-Label=(Id Items)
-Level=1
-Size=1468,300
-  
-Item=ID
-  
-[EndForm]
-  
-[Form]
 Name=FORM001
 Label=covid_menu Record
 Level=1
-Size=1468,300
+Size=287,131
   
 Item=PIN
 Item=OPTIONS
+Item=ID
   
 [EndForm]
   
@@ -36,59 +27,59 @@ Label=covid_menu Level
   
 [Group]
 Required=Yes
-Name=IDS0_FORM
-Label=(Id Items)
+Name=COVID_MENU_REC_FORM
+Label=covid_menu Record
 Form=1
 LogicControl=No
 Max=1
+  
   
 [Field]
 Name=ID
-Position=117,27,146,47
+Position=120,21,135,41
 Item=ID,COVID_MENU_DICT
+UseEnterKey=Yes
+FieldLabelType=DictionaryLabel
+DataCaptureType=DropDown
+Form=1
+  
+[Text]
+Position=50,24,95,40
+Text=User ID
+ 
+  
+[Field]
+Name=PIN
+Position=120,56,177,76
+Item=PIN,COVID_MENU_DICT
 UseEnterKey=Yes
 FieldLabelType=DictionaryLabel
 Form=1
   
 [Text]
-Position=50,30,95,46
-Text=User ID
- 
-[EndGroup]
-  
-[Group]
-Required=Yes
-Name=COVID_MENU_REC_FORM
-Label=covid_menu Record
-Form=2
-LogicControl=No
-Max=1
-  
-[Field]
-Name=PIN
-Position=120,27,177,47
-Item=PIN,COVID_MENU_DICT
-UseEnterKey=Yes
-FieldLabelType=DictionaryLabel
-Form=2
-  
-[Text]
-Position=50,30,72,46
+Position=50,59,72,75
 Text=PIN
  
   
 [Field]
 Name=OPTIONS
-Position=120,57,135,77
+Position=120,86,135,106
 Item=OPTIONS,COVID_MENU_DICT
 UseEnterKey=Yes
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=2
+Form=1
   
 [Text]
-Position=50,60,98,76
+Position=50,89,98,105
 Text=Options
  
+[Block]
+Name=LOGIN
+Label=Login
+DisplayTogether=Yes
+Position=0
+Length=2
+  
 [EndGroup]
   
